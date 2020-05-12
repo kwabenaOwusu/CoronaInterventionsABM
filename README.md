@@ -51,6 +51,7 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
    
    <p align="center">
    <img src="Fig1.png" width="650">
+   <em>Fig 1: An example of small world network among for the individuals./em>   
    </p>
    
-  Fig 1: An example of small world network among for the individuals.
+  
