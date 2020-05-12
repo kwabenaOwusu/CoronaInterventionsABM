@@ -11,7 +11,7 @@ The model was designed to explore the impact of interventions to control the spr
 on the progression of the disease in terms of the number of infections.
 
 
-<details><summary>Overview</summary><br>
+<details><summary> # Overview </summary><br>
 	
 The model has three kinds of entities: individuals, government-official, and the environment. 
 
