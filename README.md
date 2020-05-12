@@ -31,3 +31,11 @@ The model has three kinds of entities: individuals, government-official, and the
 * They identify infectious individuals for treatments at hospitals. 
 * Characterized by the efficiency of contact tracing: the proportion of infectious individuals traced for treatment at hospital (reflecting the capacity of health systems). 
 * The model time step is a day. The length of one-time step depends on the size of the individuals (minus those under treatments at hospital). Simulations last for 100 days.
+
+
+# Design: Agents, Environment, and Processes 
+The model includes the four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
+
+In each updating, $$e=mc^2$$
+
+$$1 / (8*n) $$ of a unit length of time passes by, where n is the number of individuals (minus those under treatment at hospital) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting 8 hours of activeness per day for each individual.
