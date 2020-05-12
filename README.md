@@ -15,7 +15,8 @@ on the progression of the disease in terms of the number of infections.
 </details>
 
 
-# Overview 
+<details><summary>Overview</summary><br>
+	
 The model has three kinds of entities: individuals, government-official, and the environment. 
 
 ### Environment
@@ -37,6 +38,9 @@ The model has three kinds of entities: individuals, government-official, and the
 * Characterized by the efficiency of contact tracing: the proportion of infectious individuals traced for treatment at hospital. 
 * The model time step is a day. The length of one-time step depends on the size of the individuals (minus those under treatments at hospital). Simulations last for 100 days.
 
+</details>
+
+<details><summary>Porcess and Scheduling</summary><br>
 
 # Design: Processes and Scheduling
 The model includes the four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
@@ -147,6 +151,9 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 			after 14 days, immunity dies-out and becomes susceptible 
 
 	```
+</details>
+
+<details><summary>Initialization and Output</summary><br>
 
 # Initialization 
 The model is initialized with a number of susceptible and infectious (symptomatic and symptomatic) individuals. The other parameters initialized for individuals includes, _prob-exposed_, _incubation-period-exposed_, _prob-infection_, _days-recovery-asymptomatic_, _recovery-period_, _risk-life_, _social-radius_ ,_days-recovery-symptomatic_, activeness-per-day, and hospital-capacity. The government official is initialized with _efficiency-contact-tracing_.
@@ -160,6 +167,9 @@ A stack area plots and csv file showing the number of exposed, susceptible, asym
       <em>Fig 3: Snapshot of model interface.</em>   
   </p>
 
+</details>
+
+<details><summary>setting relevant parameters</summary><br>
 
 # Setting relevant parameters for  simulation
 
@@ -183,6 +193,9 @@ hospital_capacity = 0.5 # the capacity of the hospitals (in reference to the gen
 essentials_move = 8 # move out only for essentials
 
 ```
+
+</details>
+
 
 # Relevant references
 
