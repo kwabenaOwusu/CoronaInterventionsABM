@@ -57,7 +57,7 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
    
 
  ### Decision-to-move
-  * The decision to move (or not-move) is controlled by the parameter _risk-life_**. This is a random number from a uniform           distribution between a minimum (0.0) and maximum (1.0).  
+  * The decision to move (or not-move) is controlled by the parameter _risk-life_. This is a random number from a uniform           distribution between a minimum (0.0) and maximum (1.0).  
   * A decreasing risk-life (i.e. decreasing the maximum) produce a distribution of individuals who are less probable to take       risk (and vice-versa). 
 
      #### Pseudocode for Decision-to-move
