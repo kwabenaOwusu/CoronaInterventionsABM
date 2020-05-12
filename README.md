@@ -13,7 +13,7 @@ on the progression of the disease in terms of the number of infections.
 # Overview
 The model has three kinds of entities: individuals, government-official, and the environment. 
 
-## Environment
+### Environment
 * This constitutes the drivable public streets network and paths that pedestrians can use. 
 * The street network is a graph that stores the paths as edges and junctions as nodes. 
 * The junctions are characterized by their location (x and y coordinates). 
