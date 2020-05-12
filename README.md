@@ -181,7 +181,7 @@ essentials_move = 8 # move out only for essentials
 
 # Relevant references
 
-Watts, D.J. and Strogatz, S.H. [Collective dynamics of ‘small-world’networks.] *nature* **393**(6684), 1998 p.440.
+Watts, D.J. and Strogatz, S.H. [Collective dynamics of ‘small-world’networks](https://www.nature.com/articles/30918. *nature* **393**(6684),p.440, 1998.
 
 K. A. Owusu, M. M. Kulesz, and A. Merico. [Extraction behaviour and income inequalities resulting from a common pool resource exploitation](https://www.mdpi.com/2071-1050/11/2/536). *Sustainability*, **11**(536), 2019.
 
