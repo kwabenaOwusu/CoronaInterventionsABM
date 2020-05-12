@@ -135,7 +135,7 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 The model is initialized with a number of susceptible and infectious (symptomatic and symptomatic) individuals. The other parameters initialized for individuals includes, prob-exposed, incubation-period-exposed, prob-infection, days-recovery-asymptomatic, recovery-period, risk-life, social network, social radius and days-recovery-symptomatic. The government official is initialized with the efficiency of quarantining.
 
 ### Output
-A stack area plots and csv file showing the number of exposed, susceptible, asymptomatic, and symptomatic indivdiuals.
+A stack area plots and csv file showing the number of exposed, susceptible, asymptomatic, and symptomatic individuals.
 
 <p align="center">
    <img src="Fig3.png" width="700">
