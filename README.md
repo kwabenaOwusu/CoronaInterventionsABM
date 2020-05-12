@@ -131,7 +131,7 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 	```
 
 ### Initialization 
-The model is initialized with a number of susceptible and infectious (symptomatic and symptomatic) individuals. The other parameters initialized for individuals includes, _prob-exposed_, _incubation-period-exposed_, _prob-infection_, _days-recovery-asymptomatic_, _recovery-period_, _risk-life_, _social radius_ ,_days-recovery-symptomatic_, activeness_per_day, and hospital_capacity. The government official is initialized with _efficiency_contact_tracing_.
+The model is initialized with a number of susceptible and infectious (symptomatic and symptomatic) individuals. The other parameters initialized for individuals includes, _prob-exposed_, _incubation-period-exposed_, _prob-infection_, _days-recovery-asymptomatic_, _recovery-period_, _risk-life_, _social-radius_ ,_days-recovery-symptomatic_, activeness-per-day, and hospital-capacity. The government official is initialized with _efficiency_contact-tracing_.
 
 ### Output
 A stack area plots and csv file showing the number of exposed, susceptible, asymptomatic, and symptomatic individuals.
