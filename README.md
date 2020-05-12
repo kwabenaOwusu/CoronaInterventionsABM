@@ -105,7 +105,7 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
   </p>  
   
   
-   #### Pseudocode for Interaction and progression of disease  
+       #### Pseudocode for Interaction and progression of disease  
    ```
      1. If an infectious (i.e. symptomatic or asymptomatic) individual is located within the social-radius, a susceptible             individual.  becomes exposed with probability prob-exposed, i.e. the individual is infected but not infectious. 
      
