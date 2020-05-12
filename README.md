@@ -1,7 +1,5 @@
 # Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic: Dakar, Senegal
 
-
-<details><summary>Purpose</summary><br>
 	
 # Purpose 
 The model was designed to explore the impact of interventions to control the spread of covid-19. Specifically, we investigate the combined effects of control measures such as 
@@ -11,8 +9,6 @@ The model was designed to explore the impact of interventions to control the spr
 * of human behavior regarding risk to life. 
 	
 on the progression of the disease in terms of the number of infections.
-
-</details>
 
 
 <details><summary>Overview</summary><br>
@@ -40,7 +36,7 @@ The model has three kinds of entities: individuals, government-official, and the
 
 </details>
 
-<details><summary>Porcess and Scheduling</summary><br>
+<details><summary>Process and Scheduling</summary><br>
 
 # Design: Processes and Scheduling
 The model includes the four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
@@ -169,7 +165,7 @@ A stack area plots and csv file showing the number of exposed, susceptible, asym
 
 </details>
 
-<details><summary>setting relevant parameters</summary><br>
+<details><summary>Setting relevant parameters</summary><br>
 
 # Setting relevant parameters for  simulation
 
