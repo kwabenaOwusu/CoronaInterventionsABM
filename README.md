@@ -42,19 +42,20 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 # Submodels
 
 ### Social-network 
- * The social network follows a small-world social network (Watts and Strogatz, 1998). 
- * Small-world network is a graph with many nodes forming cliques (clusters of nodes which are well connected), and few nodes   that ‘reach across’ to other cliques. 
- * It is an important network structure in the study of human systems because it fits many real world networks (both physical and social) very well.  
-     #### Pseudocode for social network
-   ```
-   1. Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
-   2. In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. It then selects a          new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
-    ```
-   <p align="center">
-   <img src="Fig1.png" width="650">
-   <br>      
-      <em>Fig 1: An example of small world network among for the individuals.</em>   
-   </p>
+* The social network follows a small-world social network (Watts and Strogatz, 1998). 
+* Small-world network is a graph with many nodes forming cliques (clusters of nodes which are well connected), and fewnodes   that ‘reach across’ to other cliques. 
+* It is an important network structure in the study of human systems because it fits many real world networks (both 	physical and social) very well.  
+	#### Pseudocode for social network
+	```
+	1. Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
+	2. In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. 
+	3. It then selects a new  neighbor that is randomly chosen from the general population (excluding those to which it 		was already connected). 
+	```
+	<p align="center">
+	<img src="Fig1.png" width="650">
+	<br>      
+	<em>Fig 1: An example of small world network among for the individuals.</em>   
+   	</p>
   
 
  ### Decision-to-move
