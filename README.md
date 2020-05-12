@@ -152,12 +152,24 @@ A stack area plots and csv file showing the number of exposed, susceptible, asym
       <em>Fig 3: Snapshot of model interface.</em>   
   </p>
 
-# Parameters used for standard simulation
 
-Colons can be used to align columns.
+# Setting relevant parameters used for  simulation
+```
+num_agents = 500  # number of agents 
+num_citizens_infected = 5 # number of infectious agents (half-symptomatic and half-asymptomatic) 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+prob_exposed = 0.3 # probability of a susceptible becoming exposed (but not yet infectious upoun contact)
+incubation_period = 5  # days required to transition from exposed to infectious
+prob_infection = 0.8 # probability of an exposed transitioning to infectious (asymptomatic) else symptomatic
+recovery_susceptible = 14 # days to remain immune upon recovery 
+asymptomatic_recovery = 9 # days to transition from asymptomatic to recovered
+quarantined_recovery = 14 # days to clinical recovery 
+num_years = 150 # number of years of simulation
+
+risk_life = 0.5 #  risk level by moving outside
+social_radius = 2 # social radius within which interaction is possible
+eff_quarantined = 0.25 # efficiency of contact tracing symptomatic for treatments at hospitals
+hospital_capacity = 0.5 # the capacity of the hospitals (in reference to the general population)
+essentials_move = 8 # move out only for essentials
+
+```
