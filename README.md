@@ -184,6 +184,17 @@ essentials_move = 8 # move out only for essentials
 
 </details>
 
+
+<details><summary>Simulation scenarios videos (in progress)  </summary><br>
+
+* Different levels of efficiency of contact tracing on infections.
+* Different levels of hospital capacity on infections.
+* Different levels of adherence to  social distancing on infections
+* Different levels of time spent outside on infections.
+* Different levels of risk to life  on infections
+	
+</details>
+	
 <details><summary> Working Team </summary><br>
 	
 Prof. Mouhamed Moustapha Fall \
@@ -199,8 +210,8 @@ kwabena@aims.edu.gh
 
 </details>
 
-# References
 
+<details><summary> References </summary><br>
 Watts, D.J. and Strogatz, S.H. [Collective dynamics of ‘small-world’networks](https://www.nature.com/articles/30918). *nature* **393**(6684),p.440, 1998.
 
 Dijkstra, E.W. [A note on two problems in connexion with graphs](https://link.springer.com/article/10.1007/BF01386390). *Numerische mathematik*, **1**(1), pp.269-271, 1959.
@@ -209,3 +220,4 @@ Boeing, G. [Urban Street Network Analysis in a Computational Notebook](https://e
 
 Crooks, A. and Hailegiorgis, A. [December. Disease modeling within refugee camps: A multi-agent systems approach](https://ieeexplore.ieee.org/document/6721551)., *Winter Simulations Conference (WSC)*, pp. 1697-1706, EEE, 2013.
 
+</details>
