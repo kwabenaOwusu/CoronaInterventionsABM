@@ -58,16 +58,16 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
 
  ### Decision-to-move
   * The decision to move (or not-move) is controlled by the parameter _risk-life_. This is a random number from a uniform           distribution between a minimum (0.0) and maximum (1.0).  
-  * A decreasing risk-life (i.e. decreasing the maximum) produce a distribution of individuals who are less probable to take       risk (and vice-versa). 
+  * A decreasing _risk-life_ (i.e. decreasing the maximum) produce a distribution of individuals who are less probable to take       risk (and vice-versa). 
 
      #### Pseudocode for Decision-to-move
      
      ```
-     If random uniform (0.0, 1.0) > average (self risk-life + random neighbor risk-life ) 
+     If random uniform (0.0, 1.0) > average (self _risk-life_ + random neighbor _risk-life_ ) 
                 < move >
      else 
-                <do not move>
+              <do not move>
     ```
-  * With this setting, individuals with a lower risk-life and having other-individuals with lower risk-life in their social        network are more likely to move (and vice versa).
+  * With this setting, individuals with a lower _risk-life_ and having other-individuals with lower risk-life in their social        network are more likely to move (and vice versa).
   * When an individual decides to move, it randomly selects a point-of-interest as its destination.
   * Once the destination has been reached, an individual chooses a new random destination.
