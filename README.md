@@ -40,13 +40,12 @@ The model has three kinds of entities: individuals, government-official, and the
 
 <details><summary>Process and Scheduling</summary><br>
 
-# Design: Processes and Scheduling
 The model includes the four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
 
 In each updating, 1 / (8.n) of a unit length of time passes by, where n is the number of individuals (minus those under treatment at hospital) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting 8 hours of activeness per day for each individual.
 
 
-# Submodels
+## Submodels
 
 ### Social-network 
 * The social network follows a small-world social network (Watts and Strogatz, 1998). 
@@ -151,13 +150,12 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 	```
 </details>
 
-<details><summary>Initialization and Output</summary><br>
+<details><summary>Initialization </summary><br>
 
-# Initialization 
+## Initialization 
 The model is initialized with a number of susceptible and infectious (symptomatic and symptomatic) individuals. The other parameters initialized for individuals includes, _prob-exposed_, _incubation-period-exposed_, _prob-infection_, _days-recovery-asymptomatic_, _recovery-period_, _risk-life_, _social-radius_ ,_days-recovery-symptomatic_, activeness-per-day, and hospital-capacity. The government official is initialized with _efficiency-contact-tracing_.
 
-# Output
-A stack area plots and csv file showing the number of exposed, susceptible, asymptomatic, and symptomatic individuals.
+We visualize stack area plots and csv file showing the number of exposed, susceptible, asymptomatic, and symptomatic individuals.
 
 <p align="center">
    <img src="Fig3.png" width="750">
@@ -168,8 +166,6 @@ A stack area plots and csv file showing the number of exposed, susceptible, asym
 </details>
 
 <details><summary>Setting relevant parameters</summary><br>
-
-# Setting relevant parameters for  simulation
 
 ```python
 
@@ -195,7 +191,7 @@ essentials_move = 8 # move out only for essentials
 </details>
 
 
-# Relevant references
+# References
 
 Watts, D.J. and Strogatz, S.H. [Collective dynamics of ‘small-world’networks](https://www.nature.com/articles/30918). *nature* **393**(6684),p.440, 1998.
 
