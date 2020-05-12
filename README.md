@@ -156,7 +156,7 @@ A stack area plots and csv file showing the number of exposed, susceptible, asym
   </p>
 
 
-# Setting relevant parameters used for  simulation
+# Setting relevant parameters for  simulation
 
 ```python
 
