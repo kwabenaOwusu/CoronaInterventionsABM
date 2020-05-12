@@ -46,15 +46,16 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
  * Small-world network is a graph with many nodes forming cliques (clusters of nodes which are well connected), and few nodes   that ‘reach across’ to other cliques. 
  * It is an important network structure in the study of human systems because it fits many real world networks (both physical and social) very well.  
      #### Pseudocode for social network
+   ```
    * Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
-   * In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. It then selects a       new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
-   
+   * In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. It then selects a          new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
+    ```
    <p align="center">
    <img src="Fig1.png" width="650">
    <br>      
       <em>Fig 1: An example of small world network among for the individuals.</em>   
    </p>
-   
+  
 
  ### Decision-to-move
   * The decision to move (or not-move) is controlled by the parameter _risk-life_. This is a random number from a uniform           distribution between a minimum (0.0) and maximum (1.0).  
@@ -79,7 +80,7 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
  * Individuals move along the street paths and covers one node in each model iteration of the day. 
 
      #### Pseudocode for Dijkstra Algorithm
-```
+	```
        Let distance of start node from start node be zero.
        Let distance of all other nodes from start node be infinity.
        Repeat
@@ -90,7 +91,24 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
 	         Update the previous node of each of the updated distances.
 	         Add the current node to the list of visited nodes
           Until all nodes are visited
+	```
+  
+  
+### Interaction-with-others
+  * Individuals only interact with other-individuals within a distance _social-radius_ from itself. 
+  * The progress of the epidemic is represented using the SEIRS (Susceptible - Exposed - Infectious - Recovered -        	Susceptible). 
+  
+  <p align="center">
+   <img src="Fig1.png" width="650">
+   <br>      
+      <em>Fig 2: The SEIR model</em>   
+  </p>  
+  
+   #### Pseudocode for progression of diseas
+   ```
+     If an infectious (i.e. symptomatic or asymptomatic) individual is located within the social-radius, a susceptible           		individual.  becomes exposed with probability prob-exposed, i.e. the individual is infected but not infectious. 
+* After an incubation duration of incubation-period days, an exposed individual transition to infectious and becomes asymptomatic with probability prob-infection, else symptomatic. 
+* Asymptomatic individuals recover and becomes susceptible again (i.e. recovery does not confer lifelong immunity) after asymptomatic-recovery days. The recovered individual remains immune for recovery-susceptible days before becoming susceptible.
+* For details on the recovery of symptomatic individual’s see quarantine-by-officials
 ```
-  
-  
-  
+ 
