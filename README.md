@@ -140,10 +140,10 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 
 	```
 
-### Initialization 
+# Initialization 
 The model is initialized with a number of susceptible and infectious (symptomatic and symptomatic) individuals. The other parameters initialized for individuals includes, _prob-exposed_, _incubation-period-exposed_, _prob-infection_, _days-recovery-asymptomatic_, _recovery-period_, _risk-life_, _social-radius_ ,_days-recovery-symptomatic_, activeness-per-day, and hospital-capacity. The government official is initialized with _efficiency-contact-tracing_.
 
-### Output
+# Output
 A stack area plots and csv file showing the number of exposed, susceptible, asymptomatic, and symptomatic individuals.
 
 <p align="center">
@@ -151,3 +151,13 @@ A stack area plots and csv file showing the number of exposed, susceptible, asym
    <br>      
       <em>Fig 3: Snapshot of model interface.</em>   
   </p>
+
+# Parameters used for standard simulation
+
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
