@@ -154,7 +154,9 @@ A stack area plots and csv file showing the number of exposed, susceptible, asym
 
 
 # Setting relevant parameters used for  simulation
-```
+
+```python
+
 num_agents = 500  # number of agents 
 num_citizens_infected = 5 # number of infectious agents (half-symptomatic and half-asymptomatic) 
 
