@@ -112,7 +112,7 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 	 ```
 	1. If an infectious (i.e. symptomatic or asymptomatic) individual is located within the social-radius, a susceptible
 	individual becomes exposed with probability prob-exposed, i.e. the individual is infected but not infectious. 
-	2. After an incubation duration of incubation-period days, an exposed individual transition to infectious and becomes asymptomatic with probability prob-infection, else symptomatic. 
+	2. After an incubation duration of incubation-period days, an exposed individual transition to infectious and becomes 	      asymptomatic with probability prob-infection, else symptomatic. 
 	3. Asymptomatic individuals recover and becomes susceptible again (i.e. recovery does not confer lifelong immunity
 	after asymptomatic-recovery days. The recovered individual remains immune for recovery-susceptible days before becomes susceptible.
 
