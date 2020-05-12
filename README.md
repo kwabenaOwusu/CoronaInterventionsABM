@@ -45,8 +45,6 @@ The model includes the four sub-models which are executed in this order at each 
 In each updating, 1 / (8.n) of a unit length of time passes by, where n is the number of individuals (minus those under treatment at hospital) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting 8 hours of activeness per day for each individual.
 
 
-## Submodels
-
 ### Social-network 
 * The social network follows a small-world social network (Watts and Strogatz, 1998). 
 * Small-world network is a graph with many nodes forming cliques (clusters of nodes which are well connected), and fewnodes   that ‘reach across’ to other cliques. 
@@ -152,7 +150,6 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 
 <details><summary>Initialization </summary><br>
 
-## Initialization 
 The model is initialized with a number of susceptible and infectious (symptomatic and symptomatic) individuals. The other parameters initialized for individuals includes, _prob-exposed_, _incubation-period-exposed_, _prob-infection_, _days-recovery-asymptomatic_, _recovery-period_, _risk-life_, _social-radius_ ,_days-recovery-symptomatic_, activeness-per-day, and hospital-capacity. The government official is initialized with _efficiency-contact-tracing_.
 
 We visualize stack area plots and csv file showing the number of exposed, susceptible, asymptomatic, and symptomatic individuals.
@@ -190,6 +187,21 @@ essentials_move = 8 # move out only for essentials
 
 </details>
 
+<details><summary> Working Team </summary><br>
+
+This working teaam consist of 
+* Prof. Mouhamed Moustapha Fall
+President of the African Institute for Mathematical Sciences (AIMS) in Senegal
+Humboldt Endowed Chair in Mathematics and its Applications at  AIMS-Senegal. 
+Contact address: AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Sénégal          
+Email: mouhamed.m.fall@aims-senegal.org 
+
+* Dr. Kwabena Afriyie, Owusu
+African Institute for Mathematical Sciences, Senegal
+Contact address: AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Sénégal          
+Email: kwabena@aims.edu.gh 
+
+</details>
 
 # References
 
