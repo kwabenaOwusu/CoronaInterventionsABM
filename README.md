@@ -85,13 +85,13 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
        Let distance of start node from start node be zero.
        Let distance of all other nodes from start node be infinity.
        Repeat
-          	Visit the unvisited node with the smallest known distance from the start node.
-	         For the current node, examine its unvisited neighbors.
-	         For the current node, calculate distance of each neighbor from start node.
-          	 If the calculated distance of a node is less than the known distance, update the shortest distance.
-	         Update the previous node of each of the updated distances.
-	         Add the current node to the list of visited nodes
-          Until all nodes are visited
+          Visit the unvisited node with the smallest known distance from the start node.
+	  For the current node, examine its unvisited neighbors.
+	  For the current node, calculate distance of each neighbor from start node.
+          If the calculated distance of a node is less than the known distance, update the shortest distance.
+	  Update the previous node of each of the updated distances.
+	  Add the current node to the list of visited nodes.
+       Until all nodes are visited
 	```
   
   
