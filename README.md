@@ -46,8 +46,7 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 * Small-world network is a graph with many nodes forming cliques (clusters of nodes which are well connected), and fewnodes   that ‘reach across’ to other cliques. 
 * It is an important network structure in the study of human systems because it fits many real world networks (both 	physical and social) very well.  
 	#### Pseudocode for social network
-	```python
-	
+	```
 	1. Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
 	2. In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. 
 	3. It then selects a new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
@@ -112,7 +111,7 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
      
      #### Pseudocode for Interaction and progression of disease
 	
-	 ```python
+	 ```
 	 
 	1. If an infectious (i.e. symptomatic or asymptomatic) individual is located within the social-radius, a susceptible
 	individual becomes exposed with probability prob-exposed, i.e. the individual is infected but not infectious. 
@@ -181,6 +180,8 @@ essentials_move = 8 # move out only for essentials
 ```
 
 # Relevant references
+
+Watts, D.J. and Strogatz, S.H. [Collective dynamics of ‘small-world’networks.] *nature* **393**(6684), 1998 p.440.
 
 K. A. Owusu, M. M. Kulesz, and A. Merico. [Extraction behaviour and income inequalities resulting from a common pool resource exploitation](https://www.mdpi.com/2071-1050/11/2/536). *Sustainability*, **11**(536), 2019.
 
