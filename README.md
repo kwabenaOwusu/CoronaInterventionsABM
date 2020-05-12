@@ -122,11 +122,14 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
  * This setting reflects that the health-care quality becomes poorer as the health system becomes over-capacited.
 
       #### Pseudocode of contact tracing to treatment at hospital
-        ```
+      
+ 	```
+	
 	If infectious and symptomatic and random (0,1) < efficiency-contact-tracing
 		If random (0,1) < 1 – (nr. of individuals at hospital / carrying capacity of hospital)
-			<recover and returned to the general population>
-			<after 14 days, immunity dies-out and becomes susceptible >
+			recover and returned to the general population
+		else
+			after 14 days, immunity dies-out and becomes susceptible 
 
 	```
 
