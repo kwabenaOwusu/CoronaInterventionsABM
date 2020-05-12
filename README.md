@@ -48,3 +48,7 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
      #### Pseudocode for social network
    * Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
    * In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. It then selects a       new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
+   
+   <p align="center">
+   <img src="Fig1.png" width="750">
+   </p>
