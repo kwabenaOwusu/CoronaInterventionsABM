@@ -46,7 +46,8 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 * Small-world network is a graph with many nodes forming cliques (clusters of nodes which are well connected), and fewnodes   that ‘reach across’ to other cliques. 
 * It is an important network structure in the study of human systems because it fits many real world networks (both 	physical and social) very well.  
 	#### Pseudocode for social network
-	```
+	```python
+	
 	1. Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
 	2. In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. 
 	3. It then selects a new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
@@ -64,7 +65,8 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 
      #### Pseudocode for Decision-to-move
      
-     ```
+     ```python
+     
      If random uniform (0.0, 1.0) > average (self risk-life + random neighbor risk-life ) 
                 < move >
      else 
@@ -81,7 +83,8 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
  * Individuals move along the street paths and covers one node in each model iteration of the day. 
 
      #### Pseudocode for Dijkstra Algorithm
-	```
+	```python
+	
 	Let distance of start node from start node be zero.
 	Let distance of all other nodes from start node be infinity.
 	Repeat
@@ -109,7 +112,8 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
      
      #### Pseudocode for Interaction and progression of disease
 	
-	 ```
+	 ```python
+	 
 	1. If an infectious (i.e. symptomatic or asymptomatic) individual is located within the social-radius, a susceptible
 	individual becomes exposed with probability prob-exposed, i.e. the individual is infected but not infectious. 
 	
@@ -130,7 +134,7 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 
       #### Pseudocode of contact tracing to treatment at hospital
       
- 	```
+ 	```python
 	
 	If infectious and symptomatic and random (0,1) < efficiency-contact-tracing
 		If random (0,1) < 1 – (nr. of individuals at hospital / carrying capacity of hospital)
@@ -175,3 +179,14 @@ hospital_capacity = 0.5 # the capacity of the hospitals (in reference to the gen
 essentials_move = 8 # move out only for essentials
 
 ```
+
+# Relevant references
+
+K. A. Owusu, M. M. Kulesz, and A. Merico. [Extraction behaviour and income inequalities resulting from a common pool resource exploitation](https://www.mdpi.com/2071-1050/11/2/536). *Sustainability*, **11**(536), 2019.
+
+G. Brandt, M. M. Kulesz, D. Nissen, and A. Merico. [OGUMI-A new mobile application to conduct common-pool resource experiments in continuous time](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178951). *PLoS ONE*, **12**(6):e0178951, 2017.
+
+G. Brandt and A. Merico. [Tipping points and user-resource system collapse in a simple model of evolutionary dynamics](https://www.sciencedirect.com/science/article/pii/S1476945X13000032). *Ecological Complexity*, **13**:46–52, 2013.
+
+G. Brandt, A. Merico, B. Vollan, and A. Schlüter. [Human adaptive behavior in common pool resource systems](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052763). *PLoS ONE*, **7**(12):e52763, 2012.
+
