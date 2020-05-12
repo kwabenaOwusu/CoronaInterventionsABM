@@ -36,6 +36,4 @@ The model has three kinds of entities: individuals, government-official, and the
 # Design: Agents, Environment, and Processes 
 The model includes the four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
 
-In each updating, $$e=mc^2$$
-
-$$1 / (8*n) $$ of a unit length of time passes by, where n is the number of individuals (minus those under treatment at hospital) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting 8 hours of activeness per day for each individual.
+In each updating, 1 / (8*n) of a unit length of time passes by, where n is the number of individuals (minus those under treatment at hospital) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting 8 hours of activeness per day for each individual.
