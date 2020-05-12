@@ -45,6 +45,6 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
  * The social network follows a small-world social network (Watts and Strogatz, 1998). 
  * Small-world network is a graph with many nodes forming cliques (clusters of nodes which are well connected), and few nodes   that ‘reach across’ to other cliques. 
  * It is an important network structure in the study of human systems because it fits many real world networks (both physical and social) very well.  
- ### Pseudocode for social network
+     #### Pseudocode for social network
    * Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
-   * In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. It then selects a new      neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
+   * In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. It then selects a       new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
