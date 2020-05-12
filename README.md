@@ -192,12 +192,12 @@ essentials_move = 8 # move out only for essentials
 Prof. Mouhamed Moustapha Fall \
 President of the African Institute for Mathematical Sciences (AIMS-Senegal) \
 Humboldt Endowed Chair in Mathematics and its Applications at  AIMS-Senegal \
-AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal \      
+AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal     
 mouhamed.m.fall@aims-senegal.org 
 
 Dr. Kwabena Afriyie, Owusu \
 African Institute for Mathematical Sciences \
-AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal \         
+AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal         
 kwabena@aims.edu.gh 
 
 </details>
