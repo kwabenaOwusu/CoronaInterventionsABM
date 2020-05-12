@@ -50,5 +50,7 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
    * In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. It then selects a       new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
    
    <p align="center">
-   <img src="Fig1.png" width="600">
+   <img src="Fig1.png" width="650">
    </p>
+   
+  Fig 1: An example of small world network among for the individuals.
