@@ -37,3 +37,14 @@ The model has three kinds of entities: individuals, government-official, and the
 The model includes the four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
 
 In each updating, 1 / (8*n) of a unit length of time passes by, where n is the number of individuals (minus those under treatment at hospital) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting 8 hours of activeness per day for each individual.
+
+
+# Submodels
+
+### Social-network 
+ * The social network follows a small-world social network (Watts and Strogatz, 1998). 
+ * Small-world network is a graph with many nodes forming cliques (clusters of nodes which are well connected), and few nodes   that ‘reach across’ to other cliques. 
+ * It is an important network structure in the study of human systems because it fits many real world networks (both physical and social) very well.  
+ ### Pseudocode for social network
+   * Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
+   * In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. It then selects a new      neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
