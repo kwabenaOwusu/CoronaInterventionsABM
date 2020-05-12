@@ -47,8 +47,8 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
  * It is an important network structure in the study of human systems because it fits many real world networks (both physical and social) very well.  
      #### Pseudocode for social network
    ```
-   * Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
-   * In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. It then selects a          new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
+   1. Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
+   2. In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. It then selects a          new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
     ```
    <p align="center">
    <img src="Fig1.png" width="650">
@@ -99,16 +99,19 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
   * The progress of the epidemic is represented using the SEIRS (Susceptible - Exposed - Infectious - Recovered -        	Susceptible). 
   
   <p align="center">
-   <img src="Fig1.png" width="650">
+   <img src="Fig2.png" width="650">
    <br>      
       <em>Fig 2: The SEIR model</em>   
   </p>  
   
-   #### Pseudocode for progression of diseas
+  
+   #### Pseudocode for Interaction and progression of disease  
    ```
-     If an infectious (i.e. symptomatic or asymptomatic) individual is located within the social-radius, a susceptible           		individual.  becomes exposed with probability prob-exposed, i.e. the individual is infected but not infectious. 
-* After an incubation duration of incubation-period days, an exposed individual transition to infectious and becomes asymptomatic with probability prob-infection, else symptomatic. 
-* Asymptomatic individuals recover and becomes susceptible again (i.e. recovery does not confer lifelong immunity) after asymptomatic-recovery days. The recovered individual remains immune for recovery-susceptible days before becoming susceptible.
-* For details on the recovery of symptomatic individual’s see quarantine-by-officials
-```
+     1. If an infectious (i.e. symptomatic or asymptomatic) individual is located within the social-radius, a susceptible             individual.  becomes exposed with probability prob-exposed, i.e. the individual is infected but not infectious. 
+     
+     2. After an incubation duration of incubation-period days, an exposed individual transition to infectious and becomes             asymptomatic with probability prob-infection, else symptomatic. 
+     
+     3. Asymptomatic individuals recover and becomes susceptible again (i.e. recovery does not confer lifelong immunity) after         asymptomatic-recovery days. The recovered individual remains immune for recovery-susceptible days before becoming             susceptible. (see quarantine-by-officials for deatils on recovery of symptomatic)
+     
+     ```
  
