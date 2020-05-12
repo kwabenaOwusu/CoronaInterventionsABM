@@ -20,14 +20,14 @@ The model has three kinds of entities: individuals, government-official, and the
 * The street network also has buildings or specific points-of-interest (POIs), i.e. marketplaces.
 * These points-of-interest (POIs) are characterized by their location as polygons.
 
-## Individuals
+### Individuals
 * They are characterized by their location (x and y coordinates).
 * Health status: susceptible, exposed, asymptomatic, and symptomatic.
 * Risk to life: how one values own life influencing decision to move.
 * Social network:  list of other-individuals connected to an individual.
 * Social radius: a measure of adherence to hygiene and social distancing.
 
-## Government-official 
+### Government-official 
 * They identify infectious individuals for treatments at hospitals. 
 * Characterized by the efficiency of contact tracing: the proportion of infectious individuals traced for treatment at hospital (reflecting the capacity of health systems). 
 * The model time step is a day. The length of one-time step depends on the size of the individuals (minus those under treatments at hospital). Simulations last for 100 days.
