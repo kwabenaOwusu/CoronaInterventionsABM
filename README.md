@@ -6,4 +6,5 @@ The model was designed to explore the impact of interventions to control the spr
   * efficiency of contact tracing for treatments at hospital, i.e. capacity of existing health systems.
   * to recommendations, i.e. hygiene and social distancing.
   * of human behavior regarding risk to life. 
+  
 on the progression of the disease in terms of the number of infections.
