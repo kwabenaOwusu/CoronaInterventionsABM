@@ -78,7 +78,7 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
  * Dijkstra algorithm is used for finding the shortest path from an origin to a destination that minimizes a cost (eg. in        terms of time, distance or financial cost). 
  * Individuals move along the street paths and covers one node in each model iteration of the day. 
 
-  #### Pseudocode for Dijkstra Algorithm
+     #### Pseudocode for Dijkstra Algorithm
 ```
        Let distance of start node from start node be zero.
        Let distance of all other nodes from start node be infinity.
@@ -86,10 +86,10 @@ In each updating, 1 / (8*n) of a unit length of time passes by, where n is the n
           Visit the unvisited node with the smallest known distance from the start node.
 	         For the current node, examine its unvisited neighbors.
 	         For the current node, calculate distance of each neighbor from start node.
-          If the calculated distance of a node is less than the known distance, update the shortest distance.
+          	 If the calculated distance of a node is less than the known distance, update the shortest distance.
 	         Update the previous node of each of the updated distances.
 	         Add the current node to the list of visited nodes
-       Until all nodes are visited
+          Until all nodes are visited
 ```
   
   
