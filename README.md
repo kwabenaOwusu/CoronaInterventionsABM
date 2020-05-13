@@ -14,7 +14,7 @@ The model was designed to explore the impact of interventions to control the spr
 on the progression of the disease in terms of the number of infections.
 
 
-{{< img src="video.mp4" alt="Your image description" video="true">}}
+{{< img src="video.mov" alt="Your image description" video="true">}}
 
 ## Working Team
 
