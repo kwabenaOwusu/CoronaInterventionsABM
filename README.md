@@ -206,6 +206,7 @@ essentials_move = 8 # move out only for essentials
 * Different levels of adherence to  social distancing on infections
 * Different levels of time spent outside on infections.
 * Different levels of risk to life  on infections
+* Combinations of the above paramaters that reduces infections.
 	
 </details>
 	
