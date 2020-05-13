@@ -1,9 +1,9 @@
 # Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic: Dakar, Senegal
 
 <p align="center">
-   <img src="output.gif" width="700" >
-   <br>      
-      <em>Scenario : Hospitals, schools, markets, and churches/ mosques are opened</em>   
+	<br>      
+      <em>Scenario : Hospitals, schools, markets, and churches/ mosques are opened</em>    
+	<img src="output.gif" width="700" > 
   </p> 
 
   
