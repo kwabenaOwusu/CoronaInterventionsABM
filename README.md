@@ -27,7 +27,8 @@ kwabena@aims.edu.gh
 
 
 ## Overview
-<details><summary> Overview </summary><br>
+<details>
+	<summary> Overview </summary><br>
 	
 The model has three kinds of entities: individuals, government-official, and the environment. 
 
