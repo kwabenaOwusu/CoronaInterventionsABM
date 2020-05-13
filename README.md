@@ -1,9 +1,9 @@
 # Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic: Dakar, Senegal
 
 <p align="center">
-   <img src="output.gif" width="700" alt="Made with Angular" >
+   <img src="output.gif" width="700" >
    <br>      
-      <em>Fig 2: The SEIR model</em>   
+      <em>Scenario : Hospitals, schools, markets, and churches/ mosques are opened</em>   
   </p> 
 
   
