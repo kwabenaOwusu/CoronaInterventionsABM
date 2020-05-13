@@ -27,7 +27,7 @@ kwabena@aims.edu.gh
 
 
 ## Overview
-<details><summary> Click to expand </summary><br>
+<details><summary> click to expand </summary><br>
 	
 The model has three kinds of entities: individuals, government-official, and the environment. 
 
@@ -53,7 +53,7 @@ The model has three kinds of entities: individuals, government-official, and the
 </details>
 
 ## Process and Scheduling
-<details><summary>Process and Scheduling</summary><br>
+<details><summary>click to expand</summary><br>
 
 The model includes the four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
 
@@ -163,7 +163,8 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 	```
 </details>
 
-<details><summary>Initialization and Parameters </summary><br>
+tialization and Parameters 
+<details><summary>click to expand </summary><br>
 
 The model is initialized with a number of susceptible and infectious (symptomatic and symptomatic) individuals. The other parameters initialized for individuals includes, _prob-exposed_, _incubation-period-exposed_, _prob-infection_, _days-recovery-asymptomatic_, _recovery-period_, _risk-life_, _social-radius_ ,_days-recovery-symptomatic_, activeness-per-day, and hospital-capacity. The government official is initialized with _efficiency-contact-tracing_.
 
@@ -199,8 +200,8 @@ essentials_move = 8 # move out only for essentials
 
 </details>
 
-
-<details><summary>Simulation scenarios videos (in progress)  </summary><br>
+Simulation scenarios videos (in progress)
+<details><summary>click to expand </summary><br>
 
 * Different levels of efficiency of contact tracing on infections.
 * Different levels of hospital capacity on infections.
@@ -211,8 +212,8 @@ essentials_move = 8 # move out only for essentials
 	
 </details>
 	
-
-<details><summary> References </summary><br>
+References
+<details><summary> click to expand </summary><br>
 	
 Watts, D.J. and Strogatz, S.H. [Collective dynamics of ‘small-world’networks](https://www.nature.com/articles/30918). *nature*, **393**(6684), p.440, 1998.
 
