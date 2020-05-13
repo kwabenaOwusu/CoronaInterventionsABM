@@ -11,6 +11,21 @@ The model was designed to explore the impact of interventions to control the spr
 	
 on the progression of the disease in terms of the number of infections.
 
+## Working Team
+
+Prof. Mouhamed Moustapha Fall \
+President of the African Institute for Mathematical Sciences (AIMS-Senegal) \
+Humboldt Endowed Chair in Mathematics and its Applications at  AIMS-Senegal \
+AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal     
+mouhamed.m.fall@aims-senegal.org 
+
+Dr. Kwabena Afriyie, Owusu \
+African Institute for Mathematical Sciences \
+AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal         
+kwabena@aims.edu.gh 
+
+
+
 
  <details><summary> Overview </summary><br>
 	
@@ -194,20 +209,6 @@ essentials_move = 8 # move out only for essentials
 	
 </details>
 	
-<details><summary> Working Team </summary><br>
-	
-Prof. Mouhamed Moustapha Fall \
-President of the African Institute for Mathematical Sciences (AIMS-Senegal) \
-Humboldt Endowed Chair in Mathematics and its Applications at  AIMS-Senegal \
-AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal     
-mouhamed.m.fall@aims-senegal.org 
-
-Dr. Kwabena Afriyie, Owusu \
-African Institute for Mathematical Sciences \
-AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal         
-kwabena@aims.edu.gh 
-
-</details>
 
 
 <details><summary> References </summary><br>
