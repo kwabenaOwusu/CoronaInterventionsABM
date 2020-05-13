@@ -2,6 +2,7 @@
 
 <p align="center">
    <img src="output.gif" width="750">
+   <img src="output.gif" width="750">	
    <br>      
       <em>Fig 3: Snapshot of model interface.</em>   
   </p>
