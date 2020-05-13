@@ -50,8 +50,8 @@ The model has three kinds of entities: individuals, government-official, and the
 
 </details>
 
-## Process and Scheduling
-<details><summary>click to expand</summary><br>
+
+<details><summary>. Process and Scheduling</summary><br>
 
 The model includes the four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
 
