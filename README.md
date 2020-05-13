@@ -230,10 +230,8 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 
 ## Simulation scenarios videos (in progress)
 
-<p align="center">
-	<br>      
-      <em>Scenario : Hospitals, schools, markets, and churches/ mosques are opened</em>    
-	<img src="output.gif" width="450" > 
-	<img src="output.gif" width="450" > 	  
+<p align="center">         
+	<img src="output.gif" width="450" alt="dominating_sets_example2" > 
+	<img src="output.gif" width="450" alt="dominating_sets_example2" >	  
 </p> 
 
