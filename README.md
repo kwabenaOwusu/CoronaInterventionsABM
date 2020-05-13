@@ -210,7 +210,6 @@ essentials_move = 8 # move out only for essentials
 </details>
 	
 
-
 <details><summary> References </summary><br>
 	
 Watts, D.J. and Strogatz, S.H. [Collective dynamics of ‘small-world’networks](https://www.nature.com/articles/30918). *nature*, **393**(6684), p.440, 1998.
