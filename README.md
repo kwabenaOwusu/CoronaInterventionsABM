@@ -1,10 +1,5 @@
 # Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic: Dakar, Senegal
 
-<p align="center">
-	<br>      
-      <em>Scenario : Hospitals, schools, markets, and churches/ mosques are opened</em>    
-	<img src="output.gif" width="700" > 
-  </p> 
 
   
 ## Purpose 
@@ -230,3 +225,14 @@ Boeing, G. [Urban Street Network Analysis in a Computational Notebook](https://e
 Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-agent systems approach](https://ieeexplore.ieee.org/document/6721551)., *Winter Simulations Conference (WSC)*, pp. 1697-1706, EEE, 2013.
 
 </details>
+
+
+
+## Simulation scenarios videos (in progress)
+
+<p align="center">
+	<br>      
+      <em>Scenario : Hospitals, schools, markets, and churches/ mosques are opened</em>    
+	<img src="output.gif" width="700" > 
+  </p> 
+
