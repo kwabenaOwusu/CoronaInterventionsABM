@@ -1,8 +1,8 @@
 # Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic: Dakar, Senegal
 
 <p align="left">
-   <img src="output.gif" width="200"> 
-   <img src="output.gif" width="200">	
+   <img src="output.gif" width="400"> 
+   <img src="output.gif" width="400">	
    <br>      
       <em>Fig 3: Snapshot of model interface.</em>   
   </p>
