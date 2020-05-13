@@ -1,11 +1,9 @@
 # Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic: Dakar, Senegal
 
-  <p align="center">
-   <img src="movie_standard_rep_2.mp4" width="650">
-   <br>      
-      <em>Fig 2: The SEIR model</em>   
-  </p> 
-	
+  
+  
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](movie_standard_rep_2.mp4
+  
 ## Purpose 
 
 The model was designed to explore the impact of interventions to control the spread of covid-19. Specifically, we investigate the combined effects of control measures such as 
