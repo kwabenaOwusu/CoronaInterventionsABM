@@ -27,8 +27,7 @@ kwabena@aims.edu.gh
 
 
 ## Overview
-<details>
-	<summary> Overview </summary><br>
+<details><summary> Click to expand </summary><br>
 	
 The model has three kinds of entities: individuals, government-official, and the environment. 
 
@@ -53,6 +52,7 @@ The model has three kinds of entities: individuals, government-official, and the
 
 </details>
 
+## Process and Scheduling
 <details><summary>Process and Scheduling</summary><br>
 
 The model includes the four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
