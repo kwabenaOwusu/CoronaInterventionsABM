@@ -1,19 +1,11 @@
 # Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic: Dakar, Senegal
 
 <p align="center">
-   <img src="output.gif" width="650" title="Angular">
+   <img src="output.gif" width="700" alt="Made with Angular" >
    <br>      
       <em>Fig 2: The SEIR model</em>   
   </p> 
-  
- # Title
 
-<img align="left" src="./documentation/images/A.jpg" alt="Made with Angular" title="Angular" hspace="20"/>
-<img align="left" src="./documentation/images/B.png" alt="Made with Bootstrap" title="Bootstrap" hspace="20"/>
-<img align="left" src="./documentation/images/C.png" alt="Developed using Browsersync" title="Browsersync" hspace="20"/>
-<br/><br/><br/><br/><br/>
-
-## Table of Contents...  
   
 ## Purpose 
 
