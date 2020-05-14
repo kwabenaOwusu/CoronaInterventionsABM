@@ -202,7 +202,7 @@ essentials_move = 8 # move out only for essentials
 </details>
 
 
-<details><summary>Simulation scenarios videos (in progress)</summary><br>
+<details><summary>Simulation scenarios videos (upcoming)</summary><br>
 
 * Different levels of efficiency of contact tracing on infections.
 * Different levels of hospital capacity on infections.
@@ -239,3 +239,5 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
   <img src="markets.gif" width="450" />  
  	
 </p>  
+
+
