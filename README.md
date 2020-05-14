@@ -234,10 +234,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
   <img src="output.gif" width="450" /> 
  <br>      
    <em>Fig 3: Snapshot of model interface.</em>	
-</p>
-
-
-p + br + em {
+</p>  + br + em {
     font-style: normal;
     display: inherit;
     text-align: center;
