@@ -231,9 +231,12 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 ## Simulation scenarios videos (in progress)
 
 <p float="left">
-Fig 3: Snapshot of model interface
-  <img src="output.gif" width="450" />    
   <img src="output.gif" width="450" /> 
+  <br>       
+     <em>Fig 2: The SEIR model</em>     
+ <img src="output.gif" width="450" /> 
+ <br>       
+     <em>Fig 2: The SEIR model</em>  
 </p>
 
 
