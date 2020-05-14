@@ -201,17 +201,6 @@ essentials_move = 8 # move out only for essentials
 
 </details>
 
-
-<details><summary>Simulation scenarios videos (upcoming)</summary><br>
-
-* Different levels of efficiency of contact tracing on infections.
-* Different levels of hospital capacity on infections.
-* Different levels of adherence to  social distancing on infections
-* Different levels of time spent outside on infections.
-* Different levels of risk to life  on infections
-* Combinations of the above paramaters that reduces infections.
-	
-</details>
 	
 
 <details><summary> References </summary><br>
@@ -228,7 +217,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 
 
 
-## Simulation scenarios videos (in progress)
+## Simulation scenarios (in progress)
 
 <p float="left">
    <em> Hospitals, schools, markets, churches / mosques opened     
@@ -240,4 +229,10 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
  	
 </p>  
 
+* Different levels of efficiency of contact tracing on infections.
+* Different levels of hospital capacity on infections.
+* Different levels of adherence to  social distancing on infections
+* Different levels of time spent outside on infections.
+* Different levels of risk to life  on infections
+* Combinations of the above paramaters that reduces infections.
 
