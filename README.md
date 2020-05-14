@@ -233,8 +233,10 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 <p float="left">
   <img src="output.gif" width="450" /> 
   <img src="output.gif" width="450" />  
-   <br>       
-     <em>Fig 2: The SEIR model  hspace="100"  Fig 2: The SEIR model</em> 
+	
+ |:---:|:---:|
+| http://videoblocks.com | http://audioblocks.com |
+
 </p>
 
 
