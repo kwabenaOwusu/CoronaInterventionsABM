@@ -235,7 +235,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
   <img src="output.gif" width="450" />  
 <br>      
    <em> Hospitals, schools, markets, churches / mosques opened     
-	          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;
+	          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;
 	Hospitals, schools, churches / mosque closed excepts  markets
    </em>	
 </p>  
