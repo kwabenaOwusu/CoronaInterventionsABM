@@ -193,7 +193,8 @@ essentials_move = 8 # move out only for essentials
 
 
 <details><summary> Model outputs of different simulation scenarios (in progress)</summary><br>
-
+	
+Each line is an average of four replicate simulations
 <!--  
 
 <p float="left">
