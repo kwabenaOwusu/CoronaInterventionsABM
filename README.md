@@ -162,7 +162,7 @@ The model is initialized with a number of susceptible and infectious (symptomati
 We visualize stack area plots and csv file showing the number of exposed, susceptible, asymptomatic, and symptomatic individuals.
 
 <p align="center">
-   <img src="Fig3.png" width="750">
+   <img src="Fig3.png" width="650">
    <br>      
       <em>Fig 3: Snapshot of model interface.</em>   
   </p>
