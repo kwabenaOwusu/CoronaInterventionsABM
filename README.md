@@ -191,23 +191,8 @@ essentials_move = 8 # move out only for essentials
 
 </details>
 
-	
 
-<details><summary> References </summary><br>
-	
-Watts, D.J. and Strogatz, S.H. [Collective dynamics of ‘small-world’networks](https://www.nature.com/articles/30918). *nature*, **393**(6684), p.440, 1998.
-
-Dijkstra, E.W. [A note on two problems in connexion with graphs](https://link.springer.com/article/10.1007/BF01386390). *Numerische mathematik*, **1**(1), pp.269-271, 1959.
-
-Boeing, G. [Urban Street Network Analysis in a Computational Notebook](https://escholarship.org/uc/item/6z9802kf), 2020.
-
-Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-agent systems approach](https://ieeexplore.ieee.org/document/6721551)., *Winter Simulations Conference (WSC)*, pp. 1697-1706, EEE, 2013.
-
-</details>
-
-
-
-## Simulation scenarios (in progress)
+<details><summary> model outputs of different simulation scenarios (in progress)</summary><br>
 
 <!--  
 
@@ -224,7 +209,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 -->
     
 <p align="center">
-   <img src="control.png" width="800">
+   <img src="control.png" width="700">
    <br>      
       <em></em>   
   </p>
@@ -235,6 +220,27 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 * Different levels of time spent outside on infections.
 * Different levels of risk to life  on infections
 * Combinations of the above paramaters that reduces infections.
+
+</details>
+
+
+
+
+	
+
+<details><summary> References </summary><br>
+	
+Watts, D.J. and Strogatz, S.H. [Collective dynamics of ‘small-world’networks](https://www.nature.com/articles/30918). *nature*, **393**(6684), p.440, 1998.
+
+Dijkstra, E.W. [A note on two problems in connexion with graphs](https://link.springer.com/article/10.1007/BF01386390). *Numerische mathematik*, **1**(1), pp.269-271, 1959.
+
+Boeing, G. [Urban Street Network Analysis in a Computational Notebook](https://escholarship.org/uc/item/6z9802kf), 2020.
+
+Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-agent systems approach](https://ieeexplore.ieee.org/document/6721551)., *Winter Simulations Conference (WSC)*, pp. 1697-1706, EEE, 2013.
+
+</details>
+
+
 
 
 ## Working Team
