@@ -219,9 +219,9 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 -->
     
 <p align="center">
-   <img src="control.png" width="750" width="300">
+   <img src="control.png" width="800" width="300">
    <br>      
-      <em>Fig 3: Snapshot of model interface.</em>   
+      <em></em>   
   </p>
 
 * Different levels of efficiency of contact tracing on infections.
