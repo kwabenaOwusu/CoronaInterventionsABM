@@ -12,12 +12,11 @@ The model was designed to explore the impact of interventions to control the spr
 	
 on the progression of the disease in terms of the number of infections.
 
-<p float="center"> 
-  <img src="pois.gif" width="600" /> 
-  <br>
-	<em> An example simulation </em> 	
-</p> 
-
+<p align="center">
+	<img src="pois.gif" width="650">
+	<br>      
+	<em>An example simulation.</em>   
+   	</p>
 
 <details><summary> Overview </summary><br>
 	
