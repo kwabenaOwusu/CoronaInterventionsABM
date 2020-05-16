@@ -192,7 +192,7 @@ essentials_move = 8 # move out only for essentials
 </details>
 
 
-<details><summary> model outputs of different simulation scenarios (in progress)</summary><br>
+<details><summary> Model outputs of different simulation scenarios (in progress)</summary><br>
 
 <!--  
 
@@ -209,7 +209,7 @@ essentials_move = 8 # move out only for essentials
 -->
     
 <p align="center">
-   <img src="control.png" width="700">
+   <img src="control.png" width="650">
    <br>      
       <em></em>   
   </p>
