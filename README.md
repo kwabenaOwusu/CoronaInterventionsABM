@@ -215,12 +215,12 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 </p>  
 
 
-<p float="center">
-   <em>   </em>  
- <br>     
-  <img src="controls.pdf" width="450" /> 
- 	
-</p>  
+<p align="center">
+   <img src="controls.pdf" width="750">
+   <br>      
+      <em>Fig 3: Snapshot of model interface.</em>   
+  </p>
+
 * Different levels of efficiency of contact tracing on infections.
 * Different levels of hospital capacity on infections.
 * Different levels of adherence to  social distancing on infections
