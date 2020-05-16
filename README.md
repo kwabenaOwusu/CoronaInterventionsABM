@@ -204,6 +204,8 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 
 ## Simulation scenarios (in progress)
 
+<!--  
+
 <p float="left">
    <em> Hospitals, schools, markets, churches / mosques opened     
 	          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
@@ -214,9 +216,10 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
  	
 </p>  
 
-
+-->
+    
 <p align="center">
-   <img src="control.png" width="750">
+   <img src="control.png" width="750" width="300">
    <br>      
       <em>Fig 3: Snapshot of model interface.</em>   
   </p>
