@@ -15,7 +15,7 @@ on the progression of the disease in terms of the number of infections.
 <p align="center">
 	<img src="standard_simulation.gif" width="600">
 	<br>      
-	<em>An example simulation.</em>   
+	<em>A standard simulation.</em>   
    	</p>
 
 <details><summary> Overview </summary><br>
