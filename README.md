@@ -198,7 +198,7 @@ Each line is an average of four replicate simulations
 * Standard simulation run
     
 <p align="center">
-   <img src="summary_standard.png" width="550">
+   <img src="summary_standard.png" width="800">
    <br>      
       <em></em>   
   </p>
