@@ -61,13 +61,13 @@ The model has three kinds of entities: individuals, official, and the environmen
 
 <details><summary>. Process and Scheduling</summary><br>
 
-The model includes four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
+The model includes four sub-models which are executed in this order given below.
 
-In each updating, 1 / (8.n) of a unit length of time passes by, where n is the number of individuals (minus those under treatment at hospital) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting 8 hours of activeness per day for each individual.
+In each updating, 1 / (8.n) of a unit length of time passes by, where n is the number of individuals (minus those recieveing treatment at isolation centers) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting the hours of activeness for the individuals.
 
  ### Decision-to-move
   * The decision to move (or not-move) is controlled by the parameter _risk-life_. This is a random number from a uniform           distribution between a minimum (0.0) and maximum (1.0).  
-  * A decreasing _risk-life_ (i.e. decreasing the maximum) produce a distribution of individuals who are less probable to take       risk (and vice-versa). 
+  * A decreasing _risk-life_ (i.e. decreasing the maximum) produce a distribution of individuals who are more probable to take       risk (and vice-versa). 
 
      #### Pseudocode for Decision-to-move
      
@@ -110,9 +110,9 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 * The epidemic is represented using the SEIRS (Susceptible - Exposed - Infectious - Recovered - Susceptible). 
   
   <p align="center">
-   <img src="Fig2.png" width="650">
+   <img src="Fig2.png" width="600">
    <br>      
-      <em>Fig 2: The SEIR model</em>   
+      <em>The SEIR model</em>   
   </p> 
   
   
@@ -132,8 +132,8 @@ In each updating, 1 / (8.n) of a unit length of time passes by, where n is the n
 	```
 
  
- ### Quaranine-by-officials
- * Symptomatic individuals are removed from the general population and treated at hospital with probability _efficiency-           contact-tracing_. 
+ ### Quaranining-by-officials
+ * Infectious individuals are removed from the general population with probability _efficiency-contact-tracing_ to the isolation centers for treatment. 
  * After _recovery-symptomatic_ days at the hospital, they either recover (and returned to the general population) or die. 
  * The probability of recovery is dependent on the number of individuals being treated at the hospital, i.e. recovery             becomes less likely as the number of individuals at the hospitals increases. 
  * This setting reflects that the health-care quality becomes poorer as the health system becomes over-capacited.
