@@ -50,7 +50,7 @@ The model has three kinds of entities: individuals, official, and the environmen
 	```
 	
 	<p align="center">
-	<img src="Fig1.png" width="600">
+	<img src="Fig1.png" width="550">
 	<br>      
 	<em>An example of small world network.</em>   
    	</p>
@@ -61,7 +61,7 @@ The model has three kinds of entities: individuals, official, and the environmen
 
 <details><summary>. Process and Scheduling</summary><br>
 
-The model includes four sub-models which are executed in this order given below. In each updating, 1 / (8.n) unit length of time passes by, where n is the number of individuals (minus those receiveing treatment at isolation centers) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting the hours of activeness.
+The model includes four sub-models which are executed in the order given below. In each updating, 1 / (8.n) unit length of time passes by, where n is the number of individuals (minus those receiveing treatment at isolation centers) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting the hours of activeness.
 
  ### Decision-to-move
   * The decision to move (or not-move) is controlled by the parameter _risk-life_. This is a random number from a uniform           distribution between a minimum (0.0) and maximum (1.0).  
