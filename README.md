@@ -1,6 +1,5 @@
-# Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic.
+## Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic.
 
-<font color='red'>test blue color font</font>
 ## Purpose 
 
 The model was designed to explore the impact of interventions to control the spread of covid-19. Specifically, we investigate the combined effects of control measures such as 
