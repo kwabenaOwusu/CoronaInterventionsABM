@@ -48,6 +48,7 @@ The model has three kinds of entities: individuals, official, and the environmen
 	2. In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. 
 	3. It then selects a new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
 	```
+	
 	<p align="center">
 	<img src="Fig1.png" width="500">
 	<br>      
