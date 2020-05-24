@@ -1,19 +1,5 @@
 # *Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic : Dakar, Senegal*
 
-<style>
-  .purple {
-    color:inherit;
-  }
-  .purple:hover {
-    color:rgb(107,79,187);
-  }
-</style>
-Plus:
-
-Hey! Hover the cursor over me and guess what?! :)
-{: .purple}
-
-
 ## Purpose 
 
 The model was designed to explore the impact of interventions that aims to control the spread of covid-19. Specifically, we investigate the combined effects of variability to human behavior (regarding risk level) and control measures such as 
@@ -52,12 +38,29 @@ The model has three kinds of entities: individuals, official, and the environmen
 * They are characterized by efficiency of contact tracing infected individuals.
 * The model time step is a day. The length of one-time step depends on the size of the individuals (minus those at isolation centers). Simulations last for 150 days.
 
+### Social-network 
+* The social network follows a small-world social network (Watts and Strogatz, 1998). 
+* Small-world network is a graph with many nodes forming cliques (clusters of nodes which are well connected), and fewnodes   that ‘reach across’ to other cliques. 
+* It is an important network structure in the study of human systems because it fits many real world networks (both 	physical and social) very well.  
+	#### Pseudocode for social network
+	```
+	1. Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
+	2. In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. 
+	3. It then selects a new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
+	```
+	<p align="center">
+	<img src="Fig1.png" width="650">
+	<br>      
+	<em>Fig 1: An example of small world network among for the individuals.</em>   
+   	</p>
+  
+
 </details>
 
 
 <details><summary>. Process and Scheduling</summary><br>
 
-The model includes the four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
+The model includes four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
 
 In each updating, 1 / (8.n) of a unit length of time passes by, where n is the number of individuals (minus those under treatment at hospital) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting 8 hours of activeness per day for each individual.
 
