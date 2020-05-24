@@ -50,7 +50,7 @@ The model has three kinds of entities: individuals, official, and the environmen
 	```
 	
 	<p align="center">
-	<img src="Fig1.png" width="500">
+	<img src="Fig1.png" width="600">
 	<br>      
 	<em>An example of small world network.</em>   
    	</p>
