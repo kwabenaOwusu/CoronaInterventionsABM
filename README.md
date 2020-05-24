@@ -16,7 +16,7 @@ on the spread of the covid-19 in terms of the number of infections.
    	</p>
 
 <details><summary> Overview </summary><br>
-The model has three kinds of entities: individuals, government-official, and the environment. 
+The model has three kinds of entities: individuals, official, and the environment. 
 
 ### Environment
 * This constitutes the drivable public streets network and paths that pedestrians can use. 
@@ -32,7 +32,7 @@ The model has three kinds of entities: individuals, government-official, and the
 * Social network:  list of other-individuals connected to an individual.
 * Social radius: radius within which one interact with others, i.e. social distancing.
 
-### Government-official  
+### Official  
 * They identify infectious individuals for treatmentt at isolation centers. 
 * They are characterized by efficiency of contact tracing infected individuals.
 * The model time step is a day. The length of one-time step depends on the size of the individuals (minus those at isolation centers). Simulations last for 150 days.
