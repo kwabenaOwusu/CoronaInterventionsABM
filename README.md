@@ -1,5 +1,7 @@
 # *Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic : Dakar, Senegal*
 
+<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">INSPIRATION DAY</span>
+
 ## Purpose 
 
 The model was designed to explore the impact of interventions that aims to control the spread of covid-19. Specifically, we investigate the combined effects of variability to human behavior (regarding risk level) and control measures such as 
@@ -16,6 +18,7 @@ on the spread of the covid-19 in terms of the number of infections.
    	</p>
 
 <details><summary> Overview </summary><br>
+
 The model has three kinds of entities: individuals, official, and the environment. 
 
 ### Environment
