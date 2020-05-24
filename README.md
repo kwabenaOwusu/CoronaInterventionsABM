@@ -1,4 +1,8 @@
-## Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic.
+# Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic.
+
+<p style='color:red'>This is some red text.</p>
+<font color="red">This is some text!</font>
+These are <b style='color:red'>red words</b>.
 
 ## Purpose 
 
