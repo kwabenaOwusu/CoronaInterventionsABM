@@ -1,11 +1,9 @@
 # Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic: Dakar, Senegal
 
-``diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-```  
+<div class="text-white bg-blue mb-2">
+  .text-white on .bg-blue
+</div>
+
 ## Purpose 
 
 The model was designed to explore the impact of interventions to control the spread of covid-19. Specifically, we investigate the combined effects of control measures such as 
