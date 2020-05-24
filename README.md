@@ -1,4 +1,4 @@
-# *Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic.*
+# *Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic : Dakar, Senegal*
 
 ## Purpose 
 
