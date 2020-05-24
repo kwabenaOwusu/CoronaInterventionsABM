@@ -1,7 +1,7 @@
 # Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic: Dakar, Senegal
 
-<div class="text-white bg-blue mb-2">
-  .text-white on .bg-blue
+<div class="text-blue mb-2">
+  .text-blue on white
 </div>
 
 ## Purpose 
