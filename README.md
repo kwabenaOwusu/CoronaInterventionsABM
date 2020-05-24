@@ -49,9 +49,9 @@ The model has three kinds of entities: individuals, official, and the environmen
 	3. It then selects a new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
 	```
 	<p align="center">
-	<img src="Fig1.png" width="650">
+	<img src="Fig1.png" width="500">
 	<br>      
-	<em>An example of small world network among for the individuals.</em>   
+	<em>An example of small world network.</em>   
    	</p>
   
 
