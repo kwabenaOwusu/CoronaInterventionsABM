@@ -1,6 +1,18 @@
 # *Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic : Dakar, Senegal*
 
-<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">INSPIRATION DAY</span>
+<style>
+  .purple {
+    color:inherit;
+  }
+  .purple:hover {
+    color:rgb(107,79,187);
+  }
+</style>
+Plus:
+
+Hey! Hover the cursor over me and guess what?! :)
+{: .purple}
+
 
 ## Purpose 
 
