@@ -51,7 +51,7 @@ The model has three kinds of entities: individuals, official, and the environmen
 	<p align="center">
 	<img src="Fig1.png" width="650">
 	<br>      
-	<em>Fig 1: An example of small world network among for the individuals.</em>   
+	<em>An example of small world network among for the individuals.</em>   
    	</p>
   
 
@@ -63,24 +63,6 @@ The model has three kinds of entities: individuals, official, and the environmen
 The model includes four sub-models which are executed in this order at each time step (i) decision-to-move, (ii) moving-to-destination, (iii) interaction-with-others, and (iv) quarantine-by-officials. 
 
 In each updating, 1 / (8.n) of a unit length of time passes by, where n is the number of individuals (minus those under treatment at hospital) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting 8 hours of activeness per day for each individual.
-
-
-### Social-network 
-* The social network follows a small-world social network (Watts and Strogatz, 1998). 
-* Small-world network is a graph with many nodes forming cliques (clusters of nodes which are well connected), and fewnodes   that ‘reach across’ to other cliques. 
-* It is an important network structure in the study of human systems because it fits many real world networks (both 	physical and social) very well.  
-	#### Pseudocode for social network
-	```
-	1. Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
-	2. In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. 
-	3. It then selects a new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
-	```
-	<p align="center">
-	<img src="Fig1.png" width="650">
-	<br>      
-	<em>Fig 1: An example of small world network among for the individuals.</em>   
-   	</p>
-  
 
  ### Decision-to-move
   * The decision to move (or not-move) is controlled by the parameter _risk-life_. This is a random number from a uniform           distribution between a minimum (0.0) and maximum (1.0).  
