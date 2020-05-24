@@ -3,12 +3,11 @@
 
 ## Purpose 
 
-The model was designed to explore the impact of interventions that aims to control the spread of covid-19. Specifically, we investigate the combined effects of control measures such as 
+The model was designed to explore the impact of interventions that aims to control the spread of covid-19. Specifically, we investigate the combined effects of variability to human behavior (regarding risk level) and control measures such as 
 
 * efficiency of contact tracing infected individuals, and capacity of health systems.
 * adherence to social distancing, and different levels of lockdown.
-* variability to human behavior on risk to life. 
-	
+
 on the spread of the covid-19 in terms of the number of infections.
 
 <p align="center">
