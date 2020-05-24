@@ -152,16 +152,7 @@ The model includes four sub-models which are executed in this order given below.
 
 <details><summary> Initialization and Parameters </summary><br>
 
-The model is initialized with a number of susceptible and infectious (symptomatic and symptomatic) individuals. The other parameters initialized for individuals includes, _prob-exposed_, _incubation-period-exposed_, _prob-infection_, _days-recovery-asymptomatic_, _recovery-period_, _risk-life_, _social-radius_ ,_days-recovery-symptomatic_, activeness-per-day, and hospital-capacity. The government official is initialized with _efficiency-contact-tracing_.
-
-We visualize stack area plots and csv file showing the number of exposed, susceptible, asymptomatic, and symptomatic individuals.
-
-<p align="center">
-   <img src="Fig3.png" width="550">
-   <br>      
-      <em>Fig 3: Snapshot of model interface.</em>   
-  </p>
-
+The model is initialized with a number of susceptible and infectious (symptomatic and symptomatic) individuals. The other parameters initialized for individuals includes, _prob-exposed_, _incubation-period-exposed_, _prob-infection_, _days-recovery-asymptomatic_, _recovery-period_, _risk-life_, _social-radius_ ,_days-recovery-symptomatic_, activeness-per-day, and hospital-capacity. The official is initialized with _efficiency-contact-tracing_. 
 
 ```python
 
