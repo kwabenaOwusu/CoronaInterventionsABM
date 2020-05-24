@@ -1,15 +1,11 @@
 # Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic.
 
-- ![#c5f015](kkkkk) `#c5f015`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
-
-
 ## Purpose 
 
 The model was designed to explore the impact of interventions that aims to control the spread of covid-19. Specifically, we investigate the combined effects of variability to human behavior (regarding risk level) and control measures such as 
 
 * efficiency of contact tracing infected individuals, and capacity of health systems.
-* adherence to social distancing, and different levels of lockdown.
+* adherence to social distancing, and different levels of lockdown (total and partial).
 
 on the spread of the covid-19 in terms of the number of infections.
 
