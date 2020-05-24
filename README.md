@@ -1,6 +1,6 @@
 # Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic.
 
-<span style="color: red;">text</span>.
+<span style="color: red;">text</span>
 
 ## Purpose 
 
