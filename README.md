@@ -1,4 +1,4 @@
-# Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic: Dakar, Senegal
+# Agent-Based Model for Assessing the Impact of Interventions on Covid-19 Pandemic.
 
 <font color='red'>test blue color font</font>
 ## Purpose 
