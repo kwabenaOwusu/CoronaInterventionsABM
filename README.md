@@ -250,7 +250,15 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
       <em></em>   
   </p>
   
-### Different levels of capacity of isolation centers (± 50% of standard value) at high contact-tracing.
+### Different levels of capacity of isolation centers (± 50% of standard value) at different contact-tracing.
+
+
+<p align="center">
+   <img src="summary_capacity.png" width="1000">
+   <br>      
+      <em></em>   
+  </p>
+
 ### Different levels of adherence to  social distancing (± 50% of standard value).
 ### Different levels of propensity to take risk (± 50% of standard value).
 
