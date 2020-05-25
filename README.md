@@ -209,7 +209,7 @@ essentials_move = 8 # move out only for essentials
 
 -->
 
-* tandard simulation
+### Standard simulation
     
 <p align="center">
    <img src="summary_standard.png" width="1000">
@@ -217,7 +217,7 @@ essentials_move = 8 # move out only for essentials
       <em></em>   
   </p>
 
-* Different levels of efficiency of contact tracing (± 50% of standard value).
+### Different levels of efficiency of contact tracing (± 50% of standard value).
 
 <p align="center">
    <img src="summary_contact_tracing.png" width="1000">
@@ -225,7 +225,7 @@ essentials_move = 8 # move out only for essentials
       <em></em>   
   </p>
   
-* Different levels of lockdowns, i.e. hours spent outside per day (± 50% of standard value).
+### Different levels of lockdowns, i.e. hours spent outside per day (± 50% of standard value).
 
 <p align="center">
    <img src="summary_lockdown.png" width="1000">
