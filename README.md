@@ -14,6 +14,21 @@ on the spread of the covid-19 in terms of the number of infections.
 	<br>      
 	<em>A standard simulation.</em>   
    	</p>
+	
+
+## Working Team
+
+Prof. Mouhamed Moustapha Fall \
+President of the [African Institute for Mathematical Sciences](https://www.aims-senegal.org/) (AIMS-Senegal) \
+Humboldt Endowed Chair in Mathematics and its Applications at  AIMS-Senegal \
+AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal     
+mouhamed.m.fall@aims-senegal.org 
+
+Dr. Kwabena Afriyie, Owusu \
+African Institute for Mathematical Sciences \
+AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal         
+kwabena@aims.edu.gh 
+
 
 <details><summary> Overview </summary><br>
 
@@ -194,7 +209,7 @@ essentials_move = 8 # move out only for essentials
 
 -->
 
-* ####Standard simulation
+* tandard simulation
     
 <p align="center">
    <img src="summary_standard.png" width="1000">
@@ -242,17 +257,3 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 </details>
 
 
-
-
-## Working Team
-
-Prof. Mouhamed Moustapha Fall \
-President of the [African Institute for Mathematical Sciences](https://www.aims-senegal.org/) (AIMS-Senegal) \
-Humboldt Endowed Chair in Mathematics and its Applications at  AIMS-Senegal \
-AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal     
-mouhamed.m.fall@aims-senegal.org 
-
-Dr. Kwabena Afriyie, Owusu \
-African Institute for Mathematical Sciences \
-AIMS-Senegal  KM 2, Route de Joal  B.P. 14 18 Mbour, Senegal         
-kwabena@aims.edu.gh 
