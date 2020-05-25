@@ -209,9 +209,16 @@ essentials_move = 8 # move out only for essentials
    <br>      
       <em></em>   
   </p>
+  
+* Different levels of lockdowns, i.e. hours spent outside per day (± 50% of standard value).
+
+<p align="center">
+   <img src="summary_lockdown.png" width="1000">
+   <br>      
+      <em></em>   
+  </p>
 * Different levels of hospital capacity on infections.
 * Different levels of adherence to  social distancing on infections
-* Different levels of time spent outside on infections.
 * Different levels of risk to life  on infections
 * Combinations of the above paramaters that reduces infections.
 
