@@ -237,7 +237,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
       <em></em>   
   </p>
   
-### Different levels of capacity of isolation centers (± 50% of standard value) at different efficiency of contact-tracing.
+### Different levels of capacity of isolation centers (± 50% of standard value) at different efficiency of contact-tracing (0.25 and 0.5).
 
 
 <p align="center">
