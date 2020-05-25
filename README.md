@@ -180,7 +180,6 @@ essentials_move = 8 # move out only for essentials
 
 <details><summary> Model outputs of different simulation scenarios (in progress)</summary><br>
 	
-Each line is an average of four replicate simulations
 <!--  
 
 <p float="left">
@@ -195,7 +194,7 @@ Each line is an average of four replicate simulations
 
 -->
 
-* Standard simulation run
+* Standard simulation
     
 <p align="center">
    <img src="summary_standard.png" width="1000">
