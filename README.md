@@ -202,7 +202,13 @@ essentials_move = 8 # move out only for essentials
       <em></em>   
   </p>
 
-* Different levels of efficiency of contact tracing on infections.
+* Different levels of efficiency of contact tracing (± 50% of standard value).
+
+<p align="center">
+   <img src="summary_contact_tracing.png" width="1000">
+   <br>      
+      <em></em>   
+  </p>
 * Different levels of hospital capacity on infections.
 * Different levels of adherence to  social distancing on infections
 * Different levels of time spent outside on infections.
