@@ -193,7 +193,7 @@ essentials_move = 8 # move out only for essentials
 </details>
 
 
-<details><summary> Model outputs of different simulation scenarios (in progress)</summary><br>
+### Model outputs of different simulation scenarios (in progress)
 	
 <!--  
 
@@ -232,10 +232,10 @@ essentials_move = 8 # move out only for essentials
    <br>      
       <em></em>   
   </p>
-* Different levels of hospital capacity on infections.
-* Different levels of adherence to  social distancing on infections
-* Different levels of risk to life  on infections
-* Combinations of the above paramaters that reduces infections.
+  
+### Different levels of capacity of isolation centers (± 50% of standard value).
+### Different levels of adherence to  social distancing (± 50% of standard value).
+### Different levels of propensity to take risk (± 50% of standard value).
 
 </details>
 
