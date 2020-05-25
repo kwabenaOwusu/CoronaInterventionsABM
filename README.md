@@ -194,7 +194,7 @@ essentials_move = 8 # move out only for essentials
 
 -->
 
-* Standard simulation
+* ####Standard simulation
     
 <p align="center">
    <img src="summary_standard.png" width="1000">
