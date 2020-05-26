@@ -247,8 +247,11 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
   </p>
 
 ### Different levels of adherence to  social distancing (± 50% of standard value).
-### Different levels of propensity to take risk (± 50% of standard value).
-
+<p align="center">
+   <img src="radius.png" width="1000">
+   <br>      
+      <em></em>   
+  </p>
 </details>
 
 
