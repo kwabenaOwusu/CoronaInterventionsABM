@@ -248,12 +248,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 
 ### Different levels of adherence to  social distancing.
 
-<p align="center">
-   <img src="radius.png" width="1000">
-   <br>      
-      <em></em>   
-  </p>
-  
+
 
 
 ## Working Team
