@@ -216,7 +216,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 ### Standard simulation
     
 <p align="center">
-   <img src="summary_standard.png" width="1000">
+   <img src="standard_sim.png" width="1000">
    <br>      
       <em></em>   
   </p>
