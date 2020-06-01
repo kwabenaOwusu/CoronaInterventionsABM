@@ -220,8 +220,16 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
    <br>      
       <em></em>   
   </p>
-
-### Different levels of efficiency of contact tracing (± 50% of standard value).
+  
+ ### Different levels of adherence to  social distancing (± 50% of standard value).
+ 
+ <p align="center">
+   <img src="standard_sim.png" width="1000">
+   <br>      
+      <em></em>   
+  </p>### Different levels of efficiency of contact tracing (± 50% of standard value).
+  
+ ### Different levels of contact tracing (± 50% of standard value).
 
 <p align="center">
    <img src="summary_contact_tracing.png" width="1000">
@@ -246,7 +254,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
       <em></em>   
   </p>
 
-### Different levels of adherence to  social distancing.
+
 
 
 
