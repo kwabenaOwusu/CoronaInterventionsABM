@@ -245,13 +245,12 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
    <br>      
       <em></em>   
   </p>  
+  
 ### Different levels of capacity of isolation centers (± 50% of standard value).
 
 
 
-
-
-### Different levels of riosk to life (± 50% of standard value).
+### Different levels of risk to life (± 50% of standard value).
 
 
 
