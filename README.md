@@ -218,7 +218,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
    <img src="maskVsnomask.png" width="1000">
    <br>      
       <em>Temporal dynamics of infections (A and C) resulting from different different scenarios, namely with-mask and  without-mask. Each line (A and C) is an average of four replicate simulations.  The boxplots  (B) show the variability of the four replicates for infections.   
-       /em>   
+       </em>   
 </p>
   
 
@@ -227,6 +227,22 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
    <br>      
       <em>Temporal dynamics of  infectious agents (i.e. symptomatic plus asymptomatic) under different interventions. Each line is an average of four replicate simulations. </em>   
 </p>
+
+
+<p align="center">
+   <img src="sensitivity.png" width="1000">
+   <br>      
+      <em>Sensitivity of infections under different interventions. The height of the bars indicates deviations from the results obtained with standard parameter values. Each bar is an average of four replicate simulations.</em>   
+</p>
+
+
+<p align="center">
+   <img src="Sympto_Asympto_Exposedpng" width="1000">
+   <br>      
+      <em>The temporal dynamics of exposed, symptomatic and  asymptomatic under different interventions.</em>   
+</p>
+
+
 ## Working Team
 
 Prof. Mouhamed Moustapha Fall \
