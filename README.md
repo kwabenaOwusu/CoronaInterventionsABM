@@ -237,7 +237,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 
 
 <p align="center">
-   <img src="Sympto_Asympto_Exposedpng" width="1000">
+   <img src="Sympto_Asympto_Exposed.png" width="1000">
    <br>      
       <em>The temporal dynamics of exposed, symptomatic and  asymptomatic under different interventions.</em>   
 </p>
