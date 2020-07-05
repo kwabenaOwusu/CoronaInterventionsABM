@@ -213,10 +213,9 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 
 -->
 
-### Standard simulation
-    
+### Temporal dynamics of infections ({\bf A} and {\bf C}) resulting from different different scenarios, namely with-mask and  without-mask. Each line ({\bf A} and {\bf C}) is an average of four replicate simulations.  The boxplots  ({\bf B}) show the variability of the four replicates for infections.    
 <p align="center">
-   <img src="standard_sim.png" width="1000">
+   <img src="maskVSnomask" width="1000">
    <br>      
       <em></em>   
   </p>
