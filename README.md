@@ -221,38 +221,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
       <em></em>   
   </p>
   
- ### Different levels of adherence to  social distancing (± 50% of standard value).
- 
- <p align="center">
-   <img src="social_distance.png" width="1000">
-   <br>      
-      <em></em>   
-  </p>
-  
- 
-### Different levels of lockdowns, i.e. hours spent outside per day (± 50% of standard value).
 
-<p align="center">
-   <img src="lockdown.png" width="1000">
-   <br>      
-      <em></em>   
-  </p>
-  
- ### Different levels of efficiency of contact tracing (± 50% of standard value).
- 
- <p align="center">
-   <img src="contact_tracing.png" width="1000">
-   <br>      
-      <em></em>   
-  </p>  
-  
-### Different levels of capacity of isolation centers (± 50% of standard value).
-
- <p align="center">
-   <img src="isolation_center.png" width="1000">
-   <br>      
-      <em></em>   
-  </p> 
 
 
 
