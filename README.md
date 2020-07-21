@@ -227,16 +227,16 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 
 
 <p align="center">
-   <img src="sensitivity.png" width="1000">
+   <img src="interventions.png" width="1000">
    <br>      
-      <em>Sensitivity of infections under different interventions. The height of the bars indicates deviations from the results obtained with standard parameter values. Each bar is an average of four replicate simulations.</em>   
+      <em> Temporal dynamics of  infectious agents (i.e. symptomatic plus asymptomatic) under different social distancing interventions. Each line is an average of four replicate simulations./em>   
 </p>
 
 
 <p align="center">
-   <img src="Sympto_Asympto_Exposed.png" width="1000">
+   <img src="sensitivity_interventions.png" width="1000">
    <br>      
-      <em>The temporal dynamics of exposed, symptomatic and  asymptomatic under different interventions.</em>   
+      <em>Sensitivity of infections under different social distancing interventions. The height of the bars indicates deviations from the results obtained with standard parameter values. Each bar is an average of four replicate simulations./em>   
 </p>
 
 
