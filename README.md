@@ -123,7 +123,7 @@ Infectious agents (i.e. symptomatic and asymptomatic) are contact traced with gi
 
 #### Pseudocode of contact tracing to treatment at hospital
       
- 	```python
+ ```python
 	
 	If symptomatic, spent more than 14 days under treatment and random (0,1) < efficiency-contact-tracing
 		If random (0,1) < 1 – (nr. of infectious at treatment center / carrying capacity of treatment center)
@@ -132,7 +132,7 @@ Infectious agents (i.e. symptomatic and asymptomatic) are contact traced with gi
 		else
 			recovery does not occur and still kept at the treatment center
 	
-	```
+```
 	
 </details>
 
