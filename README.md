@@ -2,7 +2,10 @@
 
 ## Purpose 
 
-Our model was designed to explore the efficacy of non-pharmaceutical interventions in mitigating the COVID-19 infection. Specifically, we examine ways in which interaction is impacted by different social distancing measures (such as social radius, lock-down, and contact tracing, wearing face mask)  as well as the capacity of the health systems in light of variability in public trust (and consequent compliance) in policymakers. The model consist of three key components : (i) a street network of the area of interest (environment), (ii) agents who move along the street networks according to Dijkstra algorithm \citep{dijkstra1959note}, and  (iii) SEIRS  (Susceptible - Exposed - Infectious - Recovered - Susceptible) disease model  \citep{aron1984seasonality}. 
+Our model was designed to explore the efficacy of non-pharmaceutical interventions in mitigating the COVID-19 infection. Specifically, we examine ways in which interaction is impacted by different social distancing measures (such as social radius, lock-down, and contact tracing, wearing face mask)  as well as the capacity of the health systems in light of variability in public trust (and consequent compliance) in policymakers. The model consist of three key components : 
+* a street network of the area of interest (environment),
+* agents who move along the street networks according to Dijkstra algorithm, and  
+* SEIRS  (Susceptible - Exposed - Infectious - Recovered - Susceptible) disease model. 
 
 <p align="center">
 	<img src="standard_simulation.gif" width="600">
