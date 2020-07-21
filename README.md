@@ -213,7 +213,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 
 ### 
 <p align="center">
-   <img src="standard_simpng" width="1000">
+   <img src="standard_sim.png" width="1000">
    <br>      
       <em>   Temporal dynamics of ({\bf A}) exposed, asymptomatic and symptomatic  ({\bf C}) infectious (i.e. asymptomatic plus symptomatic), resulting from simulations using the standard parameter values (see \autoref{tab:parameters}). Each line ({\bf A} and {\bf C}) is an average of four replicate simulations. The boxplots {\bf B}, show the variability of the four replicates.       </em>   
 </p>
