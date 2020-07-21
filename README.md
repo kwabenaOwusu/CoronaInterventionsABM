@@ -17,26 +17,7 @@ Our model was designed to explore the efficacy of non-pharmaceutical interventio
 
 <details><summary> Overview </summary><br>
 
-The model has three kinds of entities: individuals, official, and the environment. 
-
-### Environment
-* This constitutes the drivable public streets network and paths that pedestrians can use. 
-* The street network is a graph that stores the paths as edges and junctions as nodes. 
-* The junctions are characterized by their location (x and y coordinates). 
-* The street network also has buildings or specific points-of-interest (POIs), i.e. marketplaces.
-* The points-of-interest (POIs) are characterized by their location as polygons.
-
-### Individuals
-* They are characterized by their location (x and y coordinates).
-* Health status: susceptible, exposed, asymptomatic, and symptomatic.
-* Risk to life: ones propensity to take risk.
-* Social network:  list of other-individuals connected to an individual.
-* Social radius: radius within which one interact with others, i.e. social distancing.
-
-### Official  
-* They identify infectious individuals for treatmentt at isolation centers. 
-* They are characterized by efficiency of contact tracing infected individuals.
-* The model time step is a day. The length of one-time step depends on the size of the individuals (minus those at isolation centers). Simulations last for 150 days.
+We used the Python module called \href{https://github.com/gboeing/osmnx}{OSMnx} to retrieve the street network and specific points-of-interest (POIs) for Dakar region from OpenStreetMap (a global crowd-sourced world map), and constructed a graph model of it via the python package \href{https://networkx.github.io/documentation/stable/}{NetworkX}. The street network consists of all the walkable and drivable paths, storing the paths as edges and junctions as nodes (\autoref{fig:env}). The points-of-interest (POIs) includes  34 hospitals, 379 schools, 73 marketplaces, and 728 place-of-worship. We represented the three-dimensional map of Dakar region on a flat, two-dimensional map, by projecting it to the coordinate reference system WGS 84 / Pseudo-Mercata (Units: meters - Easting / Northing).
 
 ### Social-network 
 * The social network follows a small-world social network (Watts and Strogatz, 1998). 
