@@ -215,14 +215,14 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 <p align="center">
    <img src="standard_sim.png" width="1000">
    <br>      
-      <em>   Temporal dynamics of ({\bf A}) exposed, asymptomatic and symptomatic  ({\bf C}) infectious (i.e. asymptomatic plus symptomatic), resulting from simulations using the standard parameter values (see \autoref{tab:parameters}). Each line ({\bf A} and {\bf C}) is an average of four replicate simulations. The boxplots {\bf B}, show the variability of the four replicates.       </em>   
+      <em>   Temporal dynamics of (A) exposed, asymptomatic and symptomatic  (C) infectious (i.e. asymptomatic plus symptomatic), resulting from simulations using the standard parameter values. Each line (A and C) is an average of four replicate simulations. The boxplots B, show the variability of the four replicates.       </em>   
 </p>
   
 
 <p align="center">
-   <img src="sensitivity_Infected.png" width="1000">
+   <img src="trust_mask.png" width="1000">
    <br>      
-      <em>Temporal dynamics of  infectious agents (i.e. symptomatic plus asymptomatic) under different interventions. Each line is an average of four replicate simulations. </em>   
+      <em> Temporal dynamics of exposed, asymptomatic and symptomatic from simulations using (A) 50\% increase in the standard value of agents trust in policymakers (B) 50\% increase in the standard value of agents tendency to wear a face mask. Each line (A and B) is an average of four replicate simulations. The boxplots C, show the variability of the four replicates. The height of the  barplots D, indicates deviations from the results obtained with standard parameter values./em>   
 </p>
 
 
