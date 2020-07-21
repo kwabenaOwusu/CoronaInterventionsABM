@@ -150,9 +150,17 @@ The model includes four sub-models which are executed in the order given below. 
 </details>
 
 
-<details><summary> Initialization and Parameters </summary><br>
+<details><summary> Initialization, handling of events and parameters </summary><br>
+	
+<p align="center">
+   <img src="flow.png" width="1000">
+   <br>      
+      <em>  Flow diagram illustrating the events handled by the agent-based model over a day. The oval, diamonds, and rectangles mark, respectively, the initialization, the decision, and the action occurring during the simulations. The arrow shows the direction of the events.     </em>   
+</p>
 
-The model is initialized with a number of susceptible and infectious (symptomatic and symptomatic) individuals. The other parameters initialized for individuals includes, _prob-exposed_, _incubation-period-exposed_, _prob-infection_, _days-recovery-asymptomatic_, _recovery-period_, _risk-life_, _social-radius_ ,_days-recovery-symptomatic_, activeness-per-day, and hospital-capacity. The official is initialized with _efficiency-contact-tracing_. 
+	
+The model time step represents a day. The length of a one-time step depends on the number of agents in the general population.  In each day updating, a $1 / 8 \cdot n$ unit length of time passes by, where n is the number of agents in the general population at the time of updating. Therefore, each agent is updated 8 times, on average, in the one-unit length of the simulated day reflecting the hours per day that an agent can interact with others. Simulations last for 150 days.
+
 
 ```python
 
@@ -167,11 +175,12 @@ asymptomatic_recovery = 9 # days to transition from asymptomatic to recovered
 quarantined_recovery = 14 # days to clinical recovery 
 num_years = 150 # number of years of simulation
 
-risk_life = 0.5 #  risk level by moving outside
+max. trust = 0.5 #  maximum distribution level of trust in policymakers
+max. mask = 0.0 #   maximum distribution level of wearing face mask
 social_radius = 2 # social radius within which interaction is possible
 eff_quarantined = 0.25 # efficiency of contact tracing symptomatic for treatments at hospitals
-hospital_capacity = 0.5 # the capacity of the hospitals (in reference to the general population)
-essentials_move = 8 # move out only for essentials
+treatment_capacity = 0.5 * num_agents # the capacity of the health system 
+level_lockdown = 8 # hours allowed outside
 
 ```
 
@@ -195,7 +204,7 @@ Crooks, A. and Hailegiorgis, A. [Disease modeling within refugee camps: A multi-
 
 
 
-## Model outputs of different simulation scenarios
+## Model outputs for different interventions
 	
 <!--  
 
