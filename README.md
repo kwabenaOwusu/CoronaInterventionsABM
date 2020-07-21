@@ -82,8 +82,8 @@ The model includes four sub-models which are executed in the order given below. 
   
   
 ### Moving-to-destination
- * Individuals find the optimal route (in terms of distance) from its current location to the destination using Dijkstra          algorithm (Dijkstra, 1959). 
- * Dijkstra algorithm is used for finding the shortest path from an origin to a destination that minimizes a cost (eg. in        terms of time, distance or financial cost). 
+ * Individuals find the optimal route (in terms of distance) from its current location to the destination using Dijkstra algorithm (Dijkstra, 1959). 
+ * Dijkstra algorithm is used for finding the shortest path from an origin to a destination that minimizes a cost (here distance). 
  * Individuals move along the street paths and covers one node in each model iteration of the day. 
 
      #### Pseudocode for Dijkstra Algorithm
@@ -139,7 +139,7 @@ Infectious agents (i.e. symptomatic and asymptomatic) are contact traced with gi
  	```python
 	
 	If symptomatic, spent more than 14 days under treatment and random (0,1) < efficiency-contact-tracing
-		If random (0,1) < 1 – (nr. of infrctious at treatment center / carrying capacity of treatment center)
+		If random (0,1) < 1 – (nr. of infectious at treatment center / carrying capacity of treatment center)
 			recovery occurs and returned to the general population, 
 			remain immune for an additional 14 days before becoming susceptible again.		
 		else
