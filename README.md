@@ -82,11 +82,9 @@ The model includes four sub-models which are executed in the order given below. 
   
   
 ### Moving-to-destination
- * Individuals find the optimal route (in terms of distance) from its current location to the destination using Dijkstra algorithm (Dijkstra, 1959). 
- * Dijkstra algorithm is used for finding the shortest path from an origin to a destination that minimizes a cost (here distance). 
- * Individuals move along the street paths and covers one node in each model iteration of the day. 
-
-     #### Pseudocode for Dijkstra Algorithm
+ The agents move along the street network using the optimal route to their destination as determined by the Dijkstra  algorithm. Dijkstra’s algorithm finds the shortest path from any one node in the street network to every other node within the same street network that minimizes a cost (here distance). We run Dijkstra’s algorithm just once and save the results. We then look up our results without having to actually run the algorithm itself anytime the shortest path between any two nodes is required.  
+     
+   #### Pseudocode for Dijkstra Algorithm
 	```python
 	
 	Let distance of start node from start node be zero.
