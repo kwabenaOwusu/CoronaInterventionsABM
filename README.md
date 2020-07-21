@@ -69,13 +69,13 @@ The agent's decision to move (or not-to move) is motivated by their individual d
  
    #### Pseudocode for Decision-to-move
      
-     ```python
+    ```python
      
      If random uniform (0.0, _max. trust_ ) > average (self trust + random neighbor trust ) 
                 < move around >
      else 
               <do not move>
-    ```
+   ```
  With this setting, individuals with a lower trust and having other-individuals with lower trust in their social network are more likely to move (and vice versa). When an individual decides to move, it randomly selects a point-of-interest as its destination. Once the destination has been reached, an individual chooses a new random destination.
   
   
@@ -83,7 +83,7 @@ The agent's decision to move (or not-to move) is motivated by their individual d
  The agents move along the street network using the optimal route to their destination as determined by the Dijkstra  algorithm. Dijkstra’s algorithm finds the shortest path from any one node in the street network to every other node within the same street network that minimizes a cost (here distance). We run Dijkstra’s algorithm just once and save the results. We then look up our results without having to actually run the algorithm itself anytime the shortest path between any two nodes is required.  
      
    #### Pseudocode for Dijkstra Algorithm
-	```python
+```python
 	
 	Let distance of start node from start node be zero.
 	Let distance of all other nodes from start node be infinity.
@@ -95,7 +95,8 @@ The agent's decision to move (or not-to move) is motivated by their individual d
 	  	Update the previous node of each of the updated distances.
 	  	Add the current node to the list of visited nodes.
 	Until all nodes are visited
-	```
+	
+```
   
 
 
