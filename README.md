@@ -61,24 +61,22 @@ The model has three kinds of entities: individuals, official, and the environmen
 
 <details><summary>. Process and Scheduling</summary><br>
 
-The model includes four sub-models which are executed in the order given below. In each updating, 1 / (8.n) unit length of time passes by, where n is the number of individuals (minus those receiveing treatment at isolation centers) at the time of updating. Therefore, each individual is updated 8 times, on average, in one-unit length of simulated time reflecting the hours of activeness.
+The model includes four sub-models which are executed in the order given below. 
 
  ### Decision-to-move
-  * The decision to move (or not-move) is controlled by the parameter _risk-life_. This is a random number from a uniform           distribution between a minimum (0.0) and maximum (1.0).  
-  * A decreasing _risk-life_ (i.e. decreasing the maximum) produce a distribution of individuals who are more probable to take       risk (and vice-versa). 
-
-     #### Pseudocode for Decision-to-move
+ 
+The agent's decision to move (or not-to move) is motivated by their individual difference regarding trust (and consequently compliance) in policymakers. The trust level of an agent is a random number drawn between a minimum of 0.0 and a maximum _max. trust_. Increasing (or decreasing) the maximum produces a more probable distribution of agents with high trust in policymakers and compliance to reducing movements only to essential service.
+ 
+   #### Pseudocode for Decision-to-move
      
      ```python
      
-     If random uniform (0.0, 1.0) > average (self risk-life + random neighbor risk-life ) 
-                < move >
+     If random uniform (0.0, _max. trust_ ) > average (self trust + random neighbor trust ) 
+                < move around >
      else 
               <do not move>
     ```
-  * With this setting, individuals with a lower _risk-life_ and having other-individuals with lower risk-life in their social        network are more likely to move (and vice versa).
-  * When an individual decides to move, it randomly selects a point-of-interest as its destination.
-  * Once the destination has been reached, an individual chooses a new random destination.
+ With this setting, individuals with a lower trust and having other-individuals with lower trust in their social network are more likely to move (and vice versa). When an individual decides to move, it randomly selects a point-of-interest as its destination. Once the destination has been reached, an individual chooses a new random destination.
   
   
 ### Moving-to-destination
