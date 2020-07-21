@@ -152,11 +152,11 @@ The model includes four sub-models which are executed in the order given below. 
 
 <details><summary> Initialization, handling of events and parameters </summary><br>
 	
-The model time step represents a day. The length of a one-time step depends on the number of agents in the general population.  In each day updating, a 1 / 8 * n$ unit length of time passes by, where n is the number of agents in the general population at the time of updating. Therefore, each agent is updated 8 times, on average, in the one-unit length of the simulated day reflecting the hours per day that an agent can interact with others. Simulations last for 150 days.
+The model time step represents a day. The length of a one-time step depends on the number of agents in the general population.  In each day updating, a (1 / 8 * n) unit length of time passes by, where n is the number of agents in the general population at the time of updating. Therefore, each agent is updated 8 times, on average, in the one-unit length of the simulated day reflecting the hours per day that an agent can interact with others. Simulations last for 150 days.
 
 	
 <p align="center">
-   <img src="flow.png" width="1000">
+   <img src="flow.png" width="800">
    <br>      
       <em>  Flow diagram illustrating the events handled by the agent-based model over a day. The oval, diamonds, and rectangles mark, respectively, the initialization, the decision, and the action occurring during the simulations. The arrow shows the direction of the events.     </em>   
 </p>
