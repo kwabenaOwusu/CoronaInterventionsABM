@@ -2,10 +2,7 @@
 
 ## Purpose 
 
-Our model was designed to explore the efficacy of non-pharmaceutical interventions in mitigating the COVID-19 infection. Specifically, we examine ways in which interaction is impacted by different social distancing measures (such as social radius, lock-down, and contact tracing, wearing face mask)  as well as the capacity of the health systems in light of variability in public trust (and consequent compliance) in policymakers. The model consist of three key components : 
-* a street network of the area of interest (environment),
-* agents who move along the street networks according to Dijkstra algorithm, and  
-* SEIRS  (Susceptible - Exposed - Infectious - Recovered - Susceptible) disease model. 
+Our model was designed to explore the efficacy of non-pharmaceutical interventions in mitigating the COVID-19 infection. Specifically, we examine ways in which interaction is impacted by different social distancing measures (such as social radius, lock-down, and contact tracing, wearing face mask)  as well as the capacity of the health systems in light of variability in public trust (and consequent compliance) in policymakers. The model consist of three key components : (I) a street network of the area of interest (environment), (II) agents who move along the street networks according to Dijkstra algorithm, and (III) SEIRS  (Susceptible - Exposed - Infectious - Recovered - Susceptible) disease model. 
 
 <p align="center">
 	<img src="standard_simulation.gif" width="600">
@@ -27,19 +24,20 @@ The agents move along the street network, interact with others, and/or are conta
 * It is an important network structure in the study of human systems because it fits many real world networks (both 	physical and social) very well.  
 
 #### Pseudocode for social network
-	```
+	
+```
 	1. Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
 	2. In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. 
 	3. It then selects a new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
-	```
+```
 	
+
 	<p align="center">
-	<img src="Fig1.png" width="550">
+	<img src="network.png" width="600">
 	<br>      
 	<em>An example of small world network.</em>   
    	</p>
   
-
 </details>
 
 
