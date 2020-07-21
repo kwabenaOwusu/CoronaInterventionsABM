@@ -140,7 +140,9 @@ Infectious agents (i.e. symptomatic and asymptomatic) are contact traced with gi
 	
 	If symptomatic, spent more than 14 days under treatment and random (0,1) < efficiency-contact-tracing
 		If random (0,1) < 1 – (nr. of infrctious at treatment center / carrying capacity of treatment center)
-			recovery occurs and returned to the general population, remain immune for an additional 14 days before becoming susceptible again.		else
+			recovery occurs and returned to the general population, 
+			remain immune for an additional 14 days before becoming susceptible again.		
+		else
 			recovery does not occur and still kept at the treatment center
 	```
 	
