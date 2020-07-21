@@ -69,13 +69,13 @@ The agent's decision to move (or not-to move) is motivated by their individual d
  
    #### Pseudocode for Decision-to-move
      
-    ```python
+  ```python
      
      If random uniform (0.0, _max. trust_ ) > average (self trust + random neighbor trust ) 
                 < move around >
      else 
               <do not move>
-   ```
+ ```
  With this setting, individuals with a lower trust and having other-individuals with lower trust in their social network are more likely to move (and vice versa). When an individual decides to move, it randomly selects a point-of-interest as its destination. Once the destination has been reached, an individual chooses a new random destination.
   
   
@@ -145,7 +145,7 @@ The model time step represents a day. The length of a one-time step depends on t
 
 	
 <p align="center">
-   <img src="flow.png" width="550">
+   <img src="flow.png" width="650">
    <br>      
       <em>  Flow diagram illustrating the events handled by the agent-based model over a day. The oval, diamonds, and rectangles mark, respectively, the initialization, the decision, and the action occurring during the simulations. The arrow shows the direction of the events.     </em>   
 </p>
