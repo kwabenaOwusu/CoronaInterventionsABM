@@ -169,16 +169,16 @@ num_citizens_infected = 5 # number of infectious agents (half-symptomatic and ha
 
 prob_exposed = 0.3 # probability of a susceptible becoming exposed (but not yet infectious upoun contact)
 incubation_period = 5  # days required to transition from exposed to infectious
-prob_infection = 0.8 # probability of an exposed transitioning to infectious (asymptomatic) else symptomatic
+prob_infection = 0.8 # probability of an exposed transitioning to asymptomatic  (else symptomatic)
 recovery_susceptible = 14 # days to remain immune upon recovery 
 asymptomatic_recovery = 9 # days to transition from asymptomatic to recovered
-quarantined_recovery = 14 # days to clinical recovery 
+quarantined_recovery = 14 # minimum days to clinical recovery for symptomatic
 num_years = 150 # number of years of simulation
 
 max. trust = 0.5 #  maximum distribution level of trust in policymakers
 max. mask = 0.0 #   maximum distribution level of wearing face mask
 social_radius = 2 # social radius within which interaction is possible
-eff_quarantined = 0.25 # efficiency of contact tracing symptomatic for treatments at hospitals
+eff_quarantined = 0.25 # efficiency of contact tracing for isolaion to treatment center
 treatment_capacity = 0.5 * num_agents # the capacity of the health system 
 level_lockdown = 8 # hours allowed outside
 
