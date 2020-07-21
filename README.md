@@ -131,6 +131,7 @@ Infectious agents (i.e. symptomatic and asymptomatic) are contact traced with gi
 			remain immune for an additional 14 days before becoming susceptible again.		
 		else
 			recovery does not occur and still kept at the treatment center
+	
 	```
 	
 </details>
