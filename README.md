@@ -130,24 +130,22 @@ The model includes four sub-models which are executed in the order given below. 
 	```
 
  
- ### Quaranining-by-officials
- * Infectious individuals are removed from the general population with probability _efficiency-contact-tracing_ to the isolation centers for treatment. 
- * After _recovery-symptomatic_ days at the isolation centers, they either recover (and returned to the general population) or die. 
- * The probability of recovery is of symtomatic individuals is dependent on the number of individuals being treated at the hospital, i.e. recovery becomes less likely as the number of individuals at the hospitals increases. 
- * This setting reflects that the health-care quality becomes poorer as the health system becomes over-capacited.
+ ### Isolating for treatment
+ 
+Infectious agents (i.e. symptomatic and asymptomatic) are contact traced with given efficiency, isolated from the general population to treatment center where they can no longer infect others. The symptomatic agent has the tendency to recover after 14 days at the treatment center and their recovery delays as the treatment center become overwhelmed (i.e. stretched beyond its capacity).      
 
-      #### Pseudocode of contact tracing to treatment at hospital
+#### Pseudocode of contact tracing to treatment at hospital
       
  	```python
 	
-	If infectious and symptomatic and random (0,1) < efficiency-contact-tracing
-		If random (0,1) < 1 – (nr. of individuals at hospital / carrying capacity of hospital)
-			recover and returned to the general population
-		else
-			after 14 days, immunity dies-out and becomes susceptible 
-
+	If symptomatic, spent more than 14 days under treatment and random (0,1) < efficiency-contact-tracing
+		If random (0,1) < 1 – (nr. of infrctious at treatment center / carrying capacity of treatment center)
+			recovery occurs and returned to the general population, remain immune for an additional 14 days before becoming susceptible again.		else
+			recovery does not occur and still kept at the treatment center
 	```
+	
 </details>
+
 
 
 <details><summary> Initialization, handling of events and parameters </summary><br>
