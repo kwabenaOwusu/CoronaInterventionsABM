@@ -30,14 +30,7 @@ The agents move along the street network, interact with others, and/or are conta
 	2. In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. 
 	3. It then selects a new  neighbor that is randomly chosen from the general population (excluding those to which it was already connected). 
 ```
-	
-
-	<p align="center">
-	<img src="network.png" width="600">
-	<br>      
-	<em>An example of small world network.</em>   
-   	</p>
-  
+	  
 </details>
 
 
