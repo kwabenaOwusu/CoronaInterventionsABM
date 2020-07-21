@@ -17,13 +17,16 @@ Our model was designed to explore the efficacy of non-pharmaceutical interventio
 
 <details><summary> Overview </summary><br>
 
-We used the Python module called \href{https://github.com/gboeing/osmnx}{OSMnx} to retrieve the street network and specific points-of-interest (POIs) for Dakar region from OpenStreetMap (a global crowd-sourced world map), and constructed a graph model of it via the python package \href{https://networkx.github.io/documentation/stable/}{NetworkX}. The street network consists of all the walkable and drivable paths, storing the paths as edges and junctions as nodes (\autoref{fig:env}). The points-of-interest (POIs) includes  34 hospitals, 379 schools, 73 marketplaces, and 728 place-of-worship. We represented the three-dimensional map of Dakar region on a flat, two-dimensional map, by projecting it to the coordinate reference system WGS 84 / Pseudo-Mercata (Units: meters - Easting / Northing).
+We used the Python module OSMnx to retrieve the street network and specific points-of-interest (POIs) for Dakar region from OpenStreetMap (a global crowd-sourced world map), and constructed a graph model of it via the python package NetworkX. The street network consists of all the walkable and drivable paths, storing the paths as edges and junctions as nodes. The points-of-interest (POIs) hospitals, schools,marketplaces, and place-of-worship. We represented the three-dimensional map of Dakar region on a flat, two-dimensional map, by projecting it to the coordinate reference system WGS 84 / Pseudo-Mercata (Units: meters - Easting / Northing).
+
+The agents move along the street network, interact with others, and/or are contact traced and isolated for treatment. They are characterized by their trust and consequently compliance to policymakers,  health status (i.e. whether susceptible, exposed, asymptomatic, and symptomatic) and social network ( i.e. other-agents connected to an agent). 
 
 ### Social-network 
 * The social network follows a small-world social network (Watts and Strogatz, 1998). 
 * Small-world network is a graph with many nodes forming cliques (clusters of nodes which are well connected), and fewnodes   that ‘reach across’ to other cliques. 
 * It is an important network structure in the study of human systems because it fits many real world networks (both 	physical and social) very well.  
-	#### Pseudocode for social network
+
+#### Pseudocode for social network
 	```
 	1. Each individual connects to its 2-nearest neighbors and then subject to random rewiring. 
 	2. In each rewiring event, an individual is randomly selected and drops one of its neighbors randomly. 
