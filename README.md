@@ -116,9 +116,8 @@ An agent interacts with other agents within a given social radius. The spread of
   
      #### Pseudocode for Interaction and progression of disease
 	
-	 ```
 We implemented SEIRS in our model as follows: If  (i) at least one infectious agent (i.e. symptomatic or asymptomatic) is within the social radius, (ii) a random number drawn from a uniform distribution is less than the probability of becoming exposed, and (iii) a random number drawn between 0 and _max. mask_ is greater than an agent's probability of wearing a face mask, then the agent becomes exposed if susceptible.  After an incubation period of 5 days , an exposed agent transition to infectious state and becomes either asymptomatic with probability of 0.8, else symptomatic. The asymptomatic agents recover after 9 days. A recovered agent remains immune for 14 days (recovery does not confer a lifelong immunity) before becoming susceptible again.	
-	```
+
 
 
 
