@@ -103,12 +103,12 @@ The model includes four sub-models which are executed in the order given below. 
   
 
 
-### Interaction-with-others
-* Individuals interact with other-individuals within a distance _social-radius_ from itself. 
-* The epidemic is represented using the SEIRS (Susceptible - Exposed - Infectious - Recovered - Susceptible). 
-  
+### SEIRS disease model
+
+An agent interacts with other agents within a given social radius. The spread of the disease is represented using the SEIRS (Susceptible - Exposed - Infectious - Recovered - Susceptible) model. The probability of an agent wearing a face mask is a random number between a minimum of 0.0 and a maximum _max. mask_. Increasing (or decreasing) the maximum produces a distribution of agents who are more probable to wear a face mask (not wear a face mask).
+ 
   <p align="center">
-   <img src="Fig2.png" width="550">
+   <img src="SEIRS.png" width="550">
    <br>      
       <em>SEIR model</em>   
   </p> 
@@ -117,19 +117,11 @@ The model includes four sub-models which are executed in the order given below. 
      #### Pseudocode for Interaction and progression of disease
 	
 	 ```
-	 
-	1. If an infectious (i.e. symptomatic or asymptomatic) individual is located within the social-radius, a susceptible
-	individual becomes exposed with probability prob-exposed, i.e. the individual is infected but not infectious. 
-	
-	2. After an incubation duration of incubation-period days, an exposed individual transition to infectious and becomes
-	asymptomatic with probability prob-infection, else symptomatic. 
-	
-	3. Asymptomatic individuals recover and becomes susceptible again (i.e. recovery does not confer lifelong immunity
-	after asymptomatic-recovery days. The recovered individual remains immune for recovery-susceptible days before becomes susceptible.
-
+We implemented SEIRS in our model as follows: If  (i) at least one infectious agent (i.e. symptomatic or asymptomatic) is within the social radius, (ii) a random number drawn from a uniform distribution is less than the probability of becoming exposed, and (iii) a random number drawn between 0 and _max. mask_ is greater than an agent's probability of wearing a face mask, then the agent becomes exposed if susceptible.  After an incubation period of 5 days , an exposed agent transition to infectious state and becomes either asymptomatic with probability of 0.8, else symptomatic. The asymptomatic agents recover after 9 days. A recovered agent remains immune for 14 days (recovery does not confer a lifelong immunity) before becoming susceptible again.	
 	```
 
- 
+
+
  ### Isolating for treatment
  
 Infectious agents (i.e. symptomatic and asymptomatic) are contact traced with given efficiency, isolated from the general population to treatment center where they can no longer infect others. The symptomatic agent has the tendency to recover after 14 days at the treatment center and their recovery delays as the treatment center become overwhelmed (i.e. stretched beyond its capacity).      
@@ -156,7 +148,7 @@ The model time step represents a day. The length of a one-time step depends on t
 
 	
 <p align="center">
-   <img src="flow.png" width="800">
+   <img src="flow.png" width="550">
    <br>      
       <em>  Flow diagram illustrating the events handled by the agent-based model over a day. The oval, diamonds, and rectangles mark, respectively, the initialization, the decision, and the action occurring during the simulations. The arrow shows the direction of the events.     </em>   
 </p>
