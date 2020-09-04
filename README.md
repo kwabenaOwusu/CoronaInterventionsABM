@@ -1,4 +1,4 @@
-# *An agent-based model for assessing impact of  non-pharmaceutical interventions on COVID-19 pandemic*
+# *An agent-based model to assess the impact of non-pharmaceutical interventions on the spread of COVID-19 for Dakar region, Senegal*
 
 ## Purpose 
 
